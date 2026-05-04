@@ -1,0 +1,516 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js" dir="ltr">
+  <head>
+    
+<meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>
+  Posts by Year
+</title>
+<!-- Google Tag Manager -->
+<script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-TC96C23V');
+</script>
+<!-- End Google Tag Manager -->
+<meta name="description" content="Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies." />
+
+
+<meta name="author" content="Org Chart" />
+ 
+
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Org Chart" />
+<meta property="og:title" content="Posts by Year" />
+<meta property="og:url" content="http://localhost:4000/posts/" />
+
+
+<meta property="og:description" content="Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies." />
+ 
+<meta property="og:image" content="http://localhost:4000/assets/images/orgchart-placeholder.svg" />
+ 
+<meta name="twitter:site" content="@TwitterUsername">
+<meta name="twitter:title" content="Posts by Year" />
+<meta name="twitter:description" content="Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies." />
+<meta name="twitter:url" content="http://localhost:4000/posts/" />
+
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:image" content="http://localhost:4000/assets/images/orgchart-placeholder.svg" />
+         
+
+<link rel="canonical" href="http://localhost:4000/posts/" />
+
+  
+<!-- https://developers.google.com/search/docs/appearance/structured-data/software-app -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["WebApplication", "MobileApplication"],
+    "name": "Org Chart",
+    "operatingSystem": ["ANDROID", "IOS"],
+    "applicationCategory": "UtilitiesApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "123"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "1.00",
+      "priceCurrency": "USD"
+    }
+  }
+</script>
+      
+<!-- end _includes/seo.html -->
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Org Chart Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- Security meta headers (best-effort on GitHub Pages) -->
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://www.youtube.com/ https://www.googletagmanager.com/ https://fonts.googleapis.com https://cdn.jsdelivr.net https://sibforms.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net data:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:; frame-src 'self' https://www.loom.com https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com; frame-ancestors 'self'"
+/>
+<!-- Balanced referrer policy for privacy without breaking analytics -->
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+<!-- Bootstrap icons-->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+  rel="stylesheet"
+/>
+<!-- Google fonts-->
+<!-- TODO Change typography and link also on _sass/variables/_typography.scss -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+  rel="stylesheet"
+/>
+<!-- <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5019172258363366"
+  crossorigin="anonymous"
+></script> -->
+<!-- Brevo styles -->
+<link
+  rel="stylesheet"
+  href="https://sibforms.com/forms/end-form/build/sib-styles.css"
+/>
+<!-- CookieBot consent -->
+<!-- <script
+  id="Cookiebot"
+  src="https://consent.cookiebot.com/uc.js"
+  data-cbid="5ce18b8b-a6fe-4145-bc8a-edcbabb5af6f"
+  data-blockingmode="auto"
+  type="text/javascript"
+></script> -->
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--posts ">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead p-0"><nav
+  class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm"
+  id="mainNav"
+>
+  <div class="container px-5">
+    <div class="d-flex align-items-center gap-2">
+      <a class="navbar-brand fw-bold" href="/"
+        >Org Chart for <span class="d-none d-md-inline">HubSpot</span
+        ><span class="d-inline d-md-none">HS</span></a
+      >
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      Menu
+      <i class="bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="/#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="/blog/">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="/blog/setup-guide/">Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="/#pricing">Pricing</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center gap-2">
+        <a
+          class="d-flex align-items-center gap-2 btn bg-black text-white px-4 py-2 me-3"
+          href="https://app.orgchart.work/install"
+        >
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M10.1704 10.0886C9.08591 10.0886 8.20682 9.24967 8.20682 8.21499C8.20682 7.18014 9.08591 6.34125 10.1704 6.34125C11.2548 6.34125 12.1339 7.18014 12.1339 8.21499C12.1339 9.24967 11.2548 10.0886 10.1704 10.0886ZM10.7581 4.60775V2.94095C11.2141 2.73545 11.5334 2.29534 11.5334 1.78456V1.74609C11.5334 1.04115 10.929 0.46439 10.1903 0.46439H10.1501C9.41142 0.46439 8.80706 1.04115 8.80706 1.74609V1.78456C8.80706 2.29534 9.12637 2.73564 9.58234 2.94113V4.60775C8.90354 4.70789 8.28331 4.97506 7.7718 5.36825L2.97601 1.8083C3.00766 1.69233 3.02989 1.57295 3.03008 1.44746C3.03084 0.649214 2.35371 0.00108006 1.51684 9.346e-07C0.680322 -0.000897062 0.000943832 0.645439 9.79483e-07 1.44386C-0.000939964 2.2423 0.67618 2.89043 1.51307 2.89133C1.78568 2.89169 2.03814 2.8178 2.25932 2.69769L6.97674 6.19976C6.57563 6.77759 6.34051 7.46977 6.34051 8.21499C6.34051 8.99508 6.5988 9.71679 7.03515 10.3102L5.60065 11.6793C5.48723 11.6467 5.36967 11.6241 5.24494 11.6241C4.55746 11.6241 3.99998 12.1559 3.99998 12.8119C3.99998 13.4682 4.55746 14 5.24494 14C5.93261 14 6.4899 13.4682 6.4899 12.8119C6.4899 12.6933 6.46617 12.5809 6.43206 12.4727L7.85111 11.1185C8.49527 11.5876 9.29748 11.8695 10.1704 11.8695C12.2856 11.8695 14 10.2333 14 8.21499C14 6.38782 12.5934 4.87833 10.7581 4.60775Z"
+              fill="#FF7A59"
+            ></path>
+          </svg>
+          Install app
+        </a>
+        <a
+          href="#"
+          class="d-none d-md-inline-flex align-items-center"
+          id="open_preferences_center"
+          >🍪</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/orgchart-placeholder.svg" alt="Org Chart" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Org Chart</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Map stakeholders and reporting lines directly inside HubSpot.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://app.orgchart.work/install" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-hubspot" aria-hidden="true"></i><span class="label">Install now</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Posts by Year</h1>
+    
+    
+
+
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2023">
+        <strong>2023</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+
+  <section id="2023" class="taxonomy__section">
+    <h2 class="archive__subtitle">2023</h2>
+    <div class="entries-list">
+      
+         
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+      <a href="/blog/setup-guide/" rel="permalink"><p>Meddicc Score CRM Guide</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+ 
+    <p class="archive__item-excerpt" itemprop="description">
+      Guide for setting up and using Meddicc Score inside the standalone CRM experience.
+
+    </p>
+    
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+         
+    <li>
+      <a href="https://orgchart.work/sitemap.xml" rel="nofollow noopener noreferrer"
+        ><i class="fas fa-fw fa-sitemap" aria-hidden="true"></i> Sitemap</a
+      >
+    </li>
+      
+    <li>
+      <a href="/terms/" rel="nofollow noopener noreferrer"
+        ><i class="fas fa-fw fa-file-signature" aria-hidden="true"></i> Terms</a
+      >
+    </li>
+      
+    <li>
+      <a href="/privacy/" rel="nofollow noopener noreferrer"
+        ><i class="fas fa-fw fa-user-secret" aria-hidden="true"></i> Privacy</a
+      >
+    </li>
+      
+    <li>
+      <a href="/security/" rel="nofollow noopener noreferrer"
+        ><i class="fas fa-fw fa-shield-alt" aria-hidden="true"></i> Security</a
+      >
+    </li>
+         
+    <li>
+      <a
+        href="/feed.xml"
+        ><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a
+      >
+    </li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 Org Chart.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <script src="/assets/js/scripts.js"></script>
+  
+    <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  
+
+
+  </body>
+</html>

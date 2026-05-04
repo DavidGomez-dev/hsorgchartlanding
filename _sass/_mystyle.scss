@@ -1,0 +1,621 @@
+// Dark mode classes
+
+$darkColor: #fff5d0;
+
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark a {
+  color: $darkColor !important;
+}
+
+h2 {
+  font-weight: 500 !important;
+}
+
+body.theme-dark,
+.theme-dark .masthead,
+.theme-dark .page__meta {
+  background-color: #0f1117;
+  color: #d6d6d6;
+}
+.theme-dark .social-icons .fas,
+.theme-dark .social-icons .fab,
+.theme-dark .social-icons .far,
+.theme-dark .social-icons .fal {
+  color: #d6d6d6 !important;
+}
+
+.theme-dark .page__hero--overlay .page__meta {
+  background-color: transparent !important;
+}
+
+.theme-dark #mainNav {
+  background-color: #21252a !important;
+  color: $darkColor;
+}
+
+.theme-dark .bg-light {
+  background-color: #433664 !important;
+  color: $darkColor;
+}
+
+.theme-dark #mainNav .navbar-toggler {
+  color: $darkColor;
+  border-color: $darkColor;
+}
+
+// Hero image on index.html
+.masthead {
+  // background: linear-gradient(
+  //     180deg,
+  //     transparent 0,
+  //     transparent 20%,
+  //     rgba(0, 0, 0, 0.1) 30%,
+  //     rgba(0, 0, 0, 0.8) 70%,
+  //     #000
+  //   ),
+  //   url(../images/HEROIMAGE.jpg);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+
+.masthead.indexpage {
+  padding-top: 7.5rem !important;
+}
+
+// Avatars
+.avatar-group .avatar {
+  margin-right: -20px; /* Adjust as needed */
+  display: inline-block;
+  border-color: #0f1117;
+  border-width: 4px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #0f1117;
+}
+
+.avatar {
+  width: 48px; /* Adjust as per your requirements */
+  height: 48px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
+// For sharing the blog on the app too
+
+h1,
+h2,
+h3 {
+  padding-top: 1rem !important;
+}
+
+.archive__item a {
+  text-decoration: none;
+  font-family: $headings-font-family;
+}
+
+// .archive__item-teaser {
+//   max-height: 200px; // Limit the height on the reel of post
+// }
+
+.achive > .page__title {
+  margin-bottom: 1.5rem !important;
+}
+
+.blogapp .initial-content,
+.search-content {
+  padding-top: 0 !important; // To start right at the top
+  padding-bottom: 6rem !important; // To let some space on for the menu footer app bar
+}
+
+@media (min-width: 48em) {
+  .archive__item-teaser img {
+    transform: translateY(
+      -10%
+    ) !important; // Better ajustment for square pictures
+  }
+}
+
+.theme-dark #apps .card-body {
+  background-color: #000 !important;
+}
+
+.theme-dark #apps .card-footer {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.theme-dark #apps .card {
+  border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.text-white:visited {
+  color: white !important;
+}
+
+.pricing-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
+  border-radius: 3px;
+  max-width: 300px; /* Adjust the max-width as needed */
+  margin: 10px auto; /* Center the card horizontally */
+}
+.pricing-card .pricing-card-header {
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 24px;
+  background-color: rgb(106, 120, 209);
+  background-image: linear-gradient(-303deg, rgb(106, 120, 209), $blue);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.is--heading-3 {
+  font-family: var(
+    --uicomponents-font-family,
+    "Lexend Deca",
+    Helvetica,
+    Arial,
+    sans-serif
+  ) !important;
+  font-weight: 500 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  /* margin-bottom: 16px; */
+  margin-top: 0;
+  display: block;
+  font-size: 22px !important;
+  line-height: normal !important;
+  text-transform: none !important;
+}
+.price-card-features {
+  padding: 12px 20px 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(51, 71, 91);
+}
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+.pricing-card ul li {
+  margin-bottom: 8px;
+}
+.pricing-card .price {
+  padding: 12px 15px 0px 20px;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.pricing-card .price .price-month {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(51, 71, 91);
+  font-weight: 300;
+}
+.pricing-card .price .price-old {
+  font-size: 20px;
+  line-height: 18px;
+  color: rgb(51, 71, 91);
+  font-weight: 300;
+  text-decoration: line-through;
+}
+.pricing-card .price-text-blue {
+  color: rgb(0, 189, 165);
+}
+.price-contact {
+  background-color: #425b76;
+  border-color: #425b76;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 8px 16px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  font-weight: 400;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.15s ease-out;
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.pricing-more-than-10 {
+  margin-top: 12px;
+}
+
+.pricing-more-than-10__details {
+  width: 100%;
+}
+
+.pricing-more-than-10__details > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  background-color: #425b76;
+  border: 1px solid #425b76;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 8px 16px;
+  border-radius: 3px;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.15s ease-out;
+}
+
+.pricing-more-than-10__details > summary:hover {
+  background-color: #33475b;
+  border-color: #33475b;
+}
+
+.pricing-more-than-10__details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pricing-more-than-10__details > summary::after {
+  content: "▾";
+  display: inline-block;
+  transition: transform 0.15s ease-out;
+}
+
+.pricing-more-than-10__details[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.pricing-more-than-10__content {
+  margin-top: 10px;
+  padding: 12px;
+  background: rgb(248, 250, 252);
+  border: 1px solid rgb(234, 240, 246);
+  border-radius: 3px;
+  text-align: left;
+}
+
+.pricing-more-than-10__list {
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.pricing-more-than-10__list li {
+  margin-bottom: 6px;
+}
+
+.pricing-more-than-10__disclaimer {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(51, 71, 91);
+  font-weight: 300;
+}
+.pricing-badge {
+  margin-top: 15px;
+  margin-bottom: -34px;
+  background-color: rgb(234, 240, 246);
+  color: rgb(51, 71, 91);
+  display: inline-block;
+  font-weight: 700;
+  font-size: 10.1px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: inherit;
+  hyphens: manual;
+  border-radius: 3px;
+  line-height: 20px;
+  min-height: 20px;
+  padding: 0px 8px;
+}
+.z-3 {
+  z-index: 1000;
+}
+
+.features2 .circle {
+  width: 100% !important;
+  left: -100px !important;
+}
+strong {
+  color: $blue !important;
+}
+
+.private-button--primary,
+.private-button--primary:hover {
+  background-color: $blue;
+  border-color: $blue;
+  color: #fff !important;
+}
+
+.private-button--primary:visited {
+  color: #fff !important;
+}
+
+.text-decor-none {
+  text-decoration: none;
+}
+
+.text-decor-none:hover {
+  text-decoration: underline;
+  text-decoration-color: $blue !important;
+  color: $blue !important;
+}
+
+// <!-- Begin Brevo Form -->
+
+#sib-container input:-ms-input-placeholder {
+  text-align: left;
+  // font-family: Helvetica, sans-serif;
+  color: #c0ccda;
+}
+
+#sib-container input::placeholder {
+  text-align: left;
+  // font-family: Helvetica, sans-serif;
+  color: #c0ccda;
+}
+
+#sib-container textarea::placeholder {
+  text-align: left;
+  // font-family: Helvetica, sans-serif;
+  color: #c0ccda;
+}
+
+#sib-container a {
+  text-decoration: underline;
+  color: rgb(0, 164, 189);
+}
+
+.waitlist-box form,
+#sib-container form {
+  background-color: transparent;
+}
+
+.sib-form {
+  font-family: initial;
+}
+
+.cta-pricing {
+  background-color: rgb(106, 120, 209);
+  background-image: linear-gradient(-303deg, rgb(106, 120, 209), $blue);
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  padding: 24px;
+}
+
+.logo-frame {
+  row-gap: 1rem;
+}
+
+.logo {
+  // filter: grayscale(1) invert(1);
+  filter: brightness(0%) invert(0%);
+  height: 2rem !important;
+}
+
+.logoinv {
+  filter: grayscale(1) invert(1);
+  //filter: brightness(0%) invert(0%);
+  height: 2rem !important;
+}
+
+.ytp-gradient-top {
+  display: none !important;
+}
+
+.ytp-show-cards-title {
+  display: none !important;
+}
+
+// <!--  END - We recommend to place the above code in head tag of your website html -->
+
+// Waitlist inline form sizing
+.waitlist-box .input-group {
+  align-items: stretch;
+}
+
+.waitlist-box .input-group .btn {
+  height: 100%;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.waitlist-box .input-group-text {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.crm-card {
+  background-color: white;
+  border-radius: 18px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(20, 32, 51, 0.04);
+  box-shadow: 0 12px 22px rgba(20, 32, 51, 0.05);
+}
+.bg-gradient-primary {
+  background-color: #6a78d1;
+  background-image: linear-gradient(-303deg, #6a78d1, #00a4bd);
+}
+
+.color-primary {
+  color: #00a4bd !important;
+}
+
+.crm-topbar__logo-icon {
+  width: 45px;
+  padding: 0.35rem;
+  background-color: #1f2c3c;
+  border-radius: 0.5rem;
+}
+
+$zoho-color: #5464f2;
+$sf-color: #0176d3;
+$sf-gradient-start: #021d5b;
+
+.bg-zoho {
+  background-color: $zoho-color !important;
+}
+
+.bg-sf {
+  background-color: $sf-color !important;
+}
+
+.zoho .bg-gradient-primary-to-secondary {
+  background: linear-gradient(45deg, #ab75e5, #7875e6) !important;
+}
+
+.zoho .text-gradient {
+  background: linear-gradient(45deg, #ab75e5, #7875e6) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.zoho .border-primary {
+  border-color: $zoho-color !important;
+}
+
+.zoho .gradient-start-color {
+  stop-color: #ab75e5 !important;
+}
+
+.zoho .gradient-end-color {
+  stop-color: #7875e6 !important;
+}
+
+.zoho strong {
+  color: $zoho-color !important;
+}
+
+.zoho strong.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.salesforce .bg-gradient-primary-to-secondary {
+  background: linear-gradient(45deg, $sf-gradient-start, #1b96ff) !important;
+}
+
+.salesforce .bg-gradient-primary {
+  background-color: $sf-gradient-start;
+  background-image: linear-gradient(-303deg, $sf-gradient-start, #1b96ff);
+}
+
+.salesforce .text-gradient {
+  background: linear-gradient(45deg, $sf-gradient-start, #1b96ff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.salesforce .border-primary {
+  border-color: $sf-color !important;
+}
+
+.salesforce .gradient-start-color {
+  stop-color: $sf-gradient-start !important;
+}
+
+.salesforce .gradient-end-color {
+  stop-color: #1b96ff !important;
+}
+
+.salesforce strong {
+  color: $sf-color !important;
+}
+
+.salesforce strong.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.salesforce .private-button--primary,
+.salesforce .private-button--primary:hover {
+  background-color: $sf-color;
+  border-color: $sf-color;
+  color: #fff !important;
+}
+
+.salesforce .private-button--primary:visited {
+  color: #fff !important;
+}
+
+.salesforce .text-decor-none:hover,
+.salesforce .color-primary {
+  color: $sf-color !important;
+}
+
+.salesforce .text-decor-none:hover {
+  text-decoration-color: $sf-color !important;
+}
+
+.salesforce #sib-container a,
+.salesforce .price-text-blue {
+  color: $sf-color !important;
+}
+
+.salesforce .cta-pricing,
+.salesforce .pricing-card-header {
+  background-color: $sf-gradient-start;
+  background-image: linear-gradient(-303deg, $sf-gradient-start, #1b96ff);
+}
+
+.salesforce .crm-topbar__logo-icon {
+  background-color: $sf-color;
+}
+
+.sidebar.resume {
+  padding-bottom: 20px !important;
+}
+
+pre {
+  background: black;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 16px;
+}

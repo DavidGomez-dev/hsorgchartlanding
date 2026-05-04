@@ -1,0 +1,175 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Org Chart
+email: support@orgchart.work
+pwalink: "https://app.orgchart.work/install"
+googleplaylink: "https://play.google.com/store/apps/details?id=com.DOMAIN.app.twa  TODO Add  &utm_source=landing"
+appstorelink: "/?ref=requestappstore   TODO Add  &utm_source=landing"
+description: Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies.
+twitter_username: TwitterUsername
+github_username: username
+minimal_mistakes_skin: contrast #default
+teaser: "/assets/images/500x300.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+comments:
+  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  disqus:
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
+# SEO Related
+google_site_verification:
+bing_site_verification:
+
+# Social Sharing
+twitter:
+  username: TwitterUsername
+facebook:
+  username: FacebookUsername
+  app_id:
+  publisher:
+og_image: /assets/images/orgchart-placeholder.svg
+
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type: Organization
+  name: # If the user or organization name differs from the site's name
+  links:
+    - "https://www.twitter.com/handle"
+    - "https://www.facebook.com/app/"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: G-TMDCPD8D27
+    anonymize_ip: # true, false (default)
+
+# Additional scripts (for New Age + Bootstrap)
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+  - assets/js/scripts.js
+  - https://sibforms.com/forms/end-form/build/main.js
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: #5 amount of posts to show (removed)
+paginate_path: #/page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+  - CNAME
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  #- jekyll-paginate (if not pagination)
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name: "Org Chart"
+  avatar: "/assets/images/orgchart-placeholder.svg"
+  bio: "Map stakeholders and reporting lines directly inside HubSpot."
+  links:
+    - label: "Install now"
+      icon: "fab fa-fw fa-hubspot"
+      url: "https://app.orgchart.work/install"
+    # - label: "Google Play"
+    #   icon: "fab fa-fw fa-google-play"
+    #   url: "https://play.google.com/store/apps/details?id=com.DOMAIN.app.twa"
+    # - label: "Apple Store"
+    #   icon: "fab fa-fw fa-apple"
+    #   url: "https://"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: #"Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "Sitemap"
+      icon: "fas fa-fw fa-sitemap"
+      url: "https://orgchart.work/sitemap.xml"
+    - label: "Terms"
+      icon: "fas fa-fw fa-file-signature"
+      url: "/terms/"
+    - label: "Privacy"
+      icon: "fas fa-fw fa-user-secret"
+      url: "/privacy/"
+    - label: "Security"
+      icon: "fas fa-fw fa-shield-alt"
+      url: "/security/"
+    - label: #"Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      classes: ""
+      header:
+        overlay_filter: linear-gradient(to right bottom, rgba(0, 164, 189, 0.8), rgba(0, 189, 165.5))
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: ""
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

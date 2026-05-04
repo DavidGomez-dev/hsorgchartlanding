@@ -1,0 +1,9 @@
+main:
+  - title: "Features"
+    url: /#features
+  - title: "Resources"
+    url: /blog/
+  - title: "Guide"
+    url: /blog/setup-guide/
+  - title: "Pricing"
+    url: /#pricing

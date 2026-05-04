@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-04T15:47:42+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Org Chart</title><subtitle>Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies.</subtitle><author><name>Org Chart</name></author><entry><title type="html">Meddicc Score CRM Guide</title><link href="http://localhost:4000/blog/setup-guide/" rel="alternate" type="text/html" title="Meddicc Score CRM Guide" /><published>2023-01-01T16:54:38+01:00</published><updated>2023-01-01T16:54:38+01:00</updated><id>http://localhost:4000/blog/setup-guide</id><content type="html" xml:base="http://localhost:4000/blog/setup-guide/"><![CDATA[<p>Use this guide to work with Meddicc Score CRM (deals, contacts, companies).</p>
+
+<h2 id="quick-start-and-access">Quick start and access</h2>
+
+<ul>
+  <li>Create an account at <code class="language-plaintext highlighter-rouge">/auth/signup</code> or follow the invite email sent from <strong>Settings → Users</strong>. Set a password via <code class="language-plaintext highlighter-rouge">/auth/set-password</code> if prompted, then open <code class="language-plaintext highlighter-rouge">/crm</code>.</li>
+  <li>The top bar shows your plan, data source (CRM or HubSpot), and a global search. The <strong>Upgrade</strong> button opens the paywall/customer portal depending on your plan.</li>
+  <li>Free workspaces can store up to five deals, five contacts, and five companies. The paywall appears when you try to create the 6th record of any type.</li>
+  <li>Optional: connect HubSpot in <strong>Settings → Data sources</strong>. When connected, HubSpot deals/contacts/companies appear mixed into the views but stay read-only inside this CRM; CRM-native records remain fully editable.</li>
+</ul>
+
+<p class="text-center"><img src="/assets/images/crm-setup1.png" alt="Access from Sidebar" class="my-3 border border-3 border-primary rounded rounded-3" /></p>
+
+<h2 id="navigation-and-dashboards">Navigation and dashboards</h2>
+
+<ul>
+  <li>Home dashboard shows pipeline coverage (total value, closing this quarter, past-due, win/loss), average/median MEDDICC scores, and a “ready to commit” counter (80+ scores).</li>
+  <li>Urgency board orders dated deals by soonest close date and lowest score so you can triage by risk.</li>
+  <li>Contact follow-ups panel surfaces contacts linked to dated deals, with assessment status, talking points, and draft email availability.</li>
+  <li>Quick actions in the hero let you jump to <strong>Review deals</strong> or <strong>Create deal</strong>. Global search in the header looks across deals, contacts, and companies; pass <code class="language-plaintext highlighter-rouge">userId</code> in the URL to fetch the right workspace when you rely on HubSpot sync.</li>
+</ul>
+
+<h2 id="deals-workspace">Deals workspace</h2>
+
+<ul>
+  <li>List view: filter by stage, framework, or free-text search. Columns show stage, framework tag, score gauge (0–100), close date, and amount.</li>
+  <li>Built-in stages: Prospecting, Qualification, Discovery, Demo/Presentation, Proposal, Negotiation, Commit, Closed Won, Closed Lost.</li>
+  <li>Actions on CRM deals: create, clone, or delete. HubSpot-synced deals stay visible but cannot be edited here.</li>
+  <li>Associations: link contacts and companies from the deal form. Links are kept in sync both ways so related records always show each other.</li>
+</ul>
+
+<h3 id="deal-form-and-scoring-flow">Deal form and scoring flow</h3>
+
+<ul>
+  <li>Core fields: name, amount, close date, stage, and framework selector. Framework catalog includes MEDDICC, MEDDPICC, BANT, SPICED, GPCTBA/C&amp;I, FAINT, CHAMP, SCOTSMAN, ANUM, SPIN, and Command of the Message.</li>
+  <li>MEDDICC questions include optional inline guidance (info icon). AI feedback appears under each section and stays attached to the latest scoring run.</li>
+  <li><strong>Score with AI</strong> (or manual score edit) uses the model picked in Settings. AI returns per-section feedback, a numeric score (0–100), and <strong>Next steps</strong> / deal assessment.</li>
+  <li>Manual overrides: if allowed in Settings, reps can change frameworks per deal and edit the numeric score. Automatic rescoring after edits can be toggled in Settings.</li>
+  <li>Prerequisites: save the deal first; scoring needs completed MEDDICC fields. Automatic scoring re-runs after form edits when enabled.</li>
+</ul>
+
+<h2 id="contacts-workspace">Contacts workspace</h2>
+
+<ul>
+  <li>Fields: name, email, job title, and associated companies. Link deals so the contact appears in the follow-up queue.</li>
+  <li><strong>Assess with AI</strong> becomes available after saving the contact and linking at least one deal. The assessment returns a summary, talking points, and (when present) a draft email you can open from the card.</li>
+  <li>When HubSpot sync is active, HubSpot contacts display read-only; create CRM contacts to edit directly.</li>
+</ul>
+
+<h2 id="companies-workspace">Companies workspace</h2>
+
+<ul>
+  <li>Track company name, website, industry, address, and description.</li>
+  <li>Link deals and contacts; gauges on the card show deal scores so you can judge account health. You can create a new deal directly from the company view and associate existing deals via the modal.</li>
+</ul>
+
+<h2 id="settings-and-administration-admins-only">Settings and administration (admins only)</h2>
+
+<ul>
+  <li><strong>Data sources &amp; access</strong>: CRM data is always on. Optionally connect HubSpot; pick whether reps can switch frameworks, edit scores, and view reports.</li>
+  <li><strong>Scoring &amp; AI</strong>:
+    <ul>
+      <li>Scoring method: “All questions combined” vs. “Per section averages” (0/0.5/1 per section, averaged and scaled to 0–100).</li>
+      <li>AI provider: OpenAI (GPT 4.1), Google (Gemini 2.5), Anthropic (Sonnet 4), Meta (Llama 4 via Groq), GPT-OSS (via Groq), or Azure OpenAI. Azure fields (resource/base URL, API key) are stored encrypted.</li>
+      <li>Automatic scoring toggle: when on, rescoring runs after users edit MEDDICC fields.</li>
+    </ul>
+  </li>
+  <li><strong>Company profile</strong>: add name, industry, value proposition, pains, and product list to keep AI answers on-brand.</li>
+  <li><strong>Frameworks</strong>: choose the default framework for new deals and edit questions/guidance per section. At least one question per section is required; changes apply to all workspace members going forward.</li>
+  <li><strong>Users &amp; licenses</strong>: see seats used vs. available, invite teammates (free or premium), upgrade/downgrade seats, promote/demote admins, or delete users. Premium/Team plans add included seats; free workspaces start with zero included seats.</li>
+  <li><strong>Billing</strong>: open the customer portal or upgrade flow from Settings. The UI “danger zone” delete option is intentionally disabled right now.</li>
+</ul>
+
+<h2 id="limits-and-billing-behavior">Limits and billing behavior</h2>
+
+<ul>
+  <li>Free plan: up to 5 deals, 5 contacts, 5 companies; creating the 6th shows the paywall.</li>
+  <li>Premium/Team: removes low record limits and adds seats. Upgrade via the header button or <strong>Settings → Billing &amp; workspace health</strong>.</li>
+</ul>
+
+<h2 id="troubleshooting-tips">Troubleshooting tips</h2>
+
+<ul>
+  <li>Seeing sample data or empty lists? Make sure you are signed in; if relying on HubSpot sync, pass the correct <code class="language-plaintext highlighter-rouge">userId</code> and verify the connection in <strong>Settings → Data sources</strong>.</li>
+  <li>Cannot edit a record? HubSpot-synced records are read-only inside this CRM; create or clone a CRM record to edit.</li>
+  <li>“Score with AI” disabled? Save the deal and fill in MEDDICC fields; scoring is available once the deal exists and has content.</li>
+  <li>Contact assessment button missing? Save the contact and link at least one deal so AI has context.</li>
+  <li>Hitting seat or record limits? Check <strong>Settings → Users</strong> for seat usage, or upgrade from the header or Settings.</li>
+</ul>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="setup guide" /><summary type="html"><![CDATA[Guide for setting up and using Meddicc Score inside the standalone CRM experience.]]></summary></entry></feed>
