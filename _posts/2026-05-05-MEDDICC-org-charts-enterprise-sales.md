@@ -8,13 +8,13 @@ tags:
   - enterprise sales
 classes: wide
 date: 2026-05-05 16:25:08 +0100
-excerpt: In the world of **enterprise sales**, teams often turn to frameworks like **MEDDICC** to win big deals. But one underrated tool can supercharge your sales p...
+excerpt: In the world of enterprise sales, teams often turn to frameworks like MEDDICC to win big deals. But one underrated tool can supercharge your sales p...
 header:
   overlay_image: /assets/images/posts/2026-05-05_575.webp
   teaser: /assets/images/posts/2026-05-05_575.webp
-  caption: 
+  caption:
 ---
-  
+
 # How Org Charts Power Success in MEDDICC and Enterprise Sales
 
 In the world of **enterprise sales**, teams often turn to frameworks like **MEDDICC** to win big deals. But one underrated tool can supercharge your sales process: **org charts**. Understanding how org charts fit within MEDDICC can make the difference between a lost opportunity and a closed deal.
@@ -23,12 +23,12 @@ In the world of **enterprise sales**, teams often turn to frameworks like **MEDD
 
 **MEDDICC** is a qualification framework for complex, high-value sales. It stands for:
 
-- **M**etrics  
-- **E**conomic Buyer  
-- **D**ecision Criteria  
-- **D**ecision Process  
-- **I**dentify Pain  
-- **C**hampion  
+- **M**etrics
+- **E**conomic Buyer
+- **D**ecision Criteria
+- **D**ecision Process
+- **I**dentify Pain
+- **C**hampion
 - **C**ompetition
 
 This framework helps sales reps qualify opportunities, understand deals deeply, and close enterprise sales efficiently.
