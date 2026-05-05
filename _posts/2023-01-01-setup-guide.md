@@ -215,6 +215,23 @@ header:
 
 <p><strong>Important:</strong> AI-generated org charts are suggestions. Review reporting lines, missing contacts, and buying roles before using the chart in a sales process.</p>
 
+<hr>
+
+<h4 class="pt-6-m mb-3 text-primary" id="home-page">13. OrgChart Home Page</h4>
+
+<p>The OrgChart home page lists org charts created in the account. It is useful for admins and managers who want to review account maps without opening each HubSpot deal.</p>
+
+<p>From the home page, users can:</p>
+
+<ul>
+  <li>View paginated org charts.</li>
+  <li>Open the editor for a selected chart.</li>
+  <li>Download the preview image.</li>
+  <li>Delete an org chart.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Screenshot of the OrgChart home page list with Open, Download, and Delete actions.</p>
+
 </div>
 </div>
 </div>
@@ -318,34 +335,6 @@ header:
 <p>Changing a user's plan does not cancel or change the Stripe subscription by itself. Billing must be managed from the customer portal.</p>
 
 <p><strong>Image needed:</strong> Screenshot of the Users settings table.</p>
-
-</div>
-</div>
-</div>
-
-<div class="accordion-item">
-
-<h3 class="accordion-header">
-<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHome" aria-expanded="true" aria-controls="collapseHome"><span id="home" class="pt-6-m">Home Page and Library</span>
-</button></h3>
-
-<div class="accordion-collapse collapse" id="collapseHome" data-bs-parent="#accordionExample">
-<div class="accordion-body">
-
-<h4 class="pt-6-m mb-3 text-primary" id="home-page">13. OrgChart Home Page</h4>
-
-<p>The OrgChart home page lists org charts created in the account. It is useful for admins and managers who want to review account maps without opening each HubSpot deal.</p>
-
-<p>From the home page, users can:</p>
-
-<ul>
-  <li>View paginated org charts.</li>
-  <li>Open the editor for a selected chart.</li>
-  <li>Download the preview image.</li>
-  <li>Delete an org chart.</li>
-</ul>
-
-<p><strong>Image needed:</strong> Screenshot of the OrgChart home page list with Open, Download, and Delete actions.</p>
 
 </div>
 </div>
