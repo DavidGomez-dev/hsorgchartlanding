@@ -1,89 +1,1201 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-04T20:23:49+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Org Chart</title><subtitle>Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies.</subtitle><author><name>Org Chart</name></author><entry><title type="html">Meddicc Score CRM Guide</title><link href="http://localhost:4000/blog/setup-guide/" rel="alternate" type="text/html" title="Meddicc Score CRM Guide" /><published>2023-01-01T16:54:38+01:00</published><updated>2023-01-01T16:54:38+01:00</updated><id>http://localhost:4000/blog/setup-guide</id><content type="html" xml:base="http://localhost:4000/blog/setup-guide/"><![CDATA[<p>Use this guide to work with Meddicc Score CRM (deals, contacts, companies).</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-06T11:40:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Org Chart</title><subtitle>Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies.</subtitle><author><name>Org Chart</name></author><entry><title type="html">How Org Charts Power Success in MEDDICC and Enterprise Sales</title><link href="http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales/" rel="alternate" type="text/html" title="How Org Charts Power Success in MEDDICC and Enterprise Sales" /><published>2026-05-05T16:25:08+01:00</published><updated>2026-05-05T16:25:08+01:00</updated><id>http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales</id><content type="html" xml:base="http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales/"><![CDATA[<h1 id="how-org-charts-power-success-in-meddicc-and-enterprise-sales">How Org Charts Power Success in MEDDICC and Enterprise Sales</h1>
 
-<h2 id="quick-start-and-access">Quick start and access</h2>
+<p>In the world of <strong>enterprise sales</strong>, teams often turn to frameworks like <strong>MEDDICC</strong> to win big deals. But one underrated tool can supercharge your sales process: <strong>org charts</strong>. Understanding how org charts fit within MEDDICC can make the difference between a lost opportunity and a closed deal.</p>
+
+<h2 id="what-is-meddicc">What is MEDDICC?</h2>
+
+<p><strong>MEDDICC</strong> is a qualification framework for complex, high-value sales. It stands for:</p>
 
 <ul>
-  <li>Create an account at <code class="language-plaintext highlighter-rouge">/auth/signup</code> or follow the invite email sent from <strong>Settings → Users</strong>. Set a password via <code class="language-plaintext highlighter-rouge">/auth/set-password</code> if prompted, then open <code class="language-plaintext highlighter-rouge">/crm</code>.</li>
-  <li>The top bar shows your plan, data source (CRM or HubSpot), and a global search. The <strong>Upgrade</strong> button opens the paywall/customer portal depending on your plan.</li>
-  <li>Free workspaces can store up to five deals, five contacts, and five companies. The paywall appears when you try to create the 6th record of any type.</li>
-  <li>Optional: connect HubSpot in <strong>Settings → Data sources</strong>. When connected, HubSpot deals/contacts/companies appear mixed into the views but stay read-only inside this CRM; CRM-native records remain fully editable.</li>
+  <li><strong>M</strong>etrics</li>
+  <li><strong>E</strong>conomic Buyer</li>
+  <li><strong>D</strong>ecision Criteria</li>
+  <li><strong>D</strong>ecision Process</li>
+  <li><strong>I</strong>dentify Pain</li>
+  <li><strong>C</strong>hampion</li>
+  <li><strong>C</strong>ompetition</li>
 </ul>
 
-<p class="text-center"><img src="/assets/images/crm-setup1.png" alt="Access from Sidebar" class="my-3 border border-3 border-primary rounded rounded-3" /></p>
+<p>This framework helps sales reps qualify opportunities, understand deals deeply, and close enterprise sales efficiently.</p>
 
-<h2 id="navigation-and-dashboards">Navigation and dashboards</h2>
+<h2 id="why-are-org-charts-essential-in-enterprise-sales">Why Are Org Charts Essential in Enterprise Sales?</h2>
+
+<p>Enterprise sales are rarely made to a single buyer. Instead, they involve long sales cycles, multiple stakeholders, and complex decision webs. That’s where <strong>org charts</strong> come in.</p>
+
+<p>Org charts visually map out an organization’s structure: who reports to whom, and how different teams are interconnected. For <strong>enterprise sales</strong> teams, org charts are strategic blueprints that help:</p>
 
 <ul>
-  <li>Home dashboard shows pipeline coverage (total value, closing this quarter, past-due, win/loss), average/median MEDDICC scores, and a “ready to commit” counter (80+ scores).</li>
-  <li>Urgency board orders dated deals by soonest close date and lowest score so you can triage by risk.</li>
-  <li>Contact follow-ups panel surfaces contacts linked to dated deals, with assessment status, talking points, and draft email availability.</li>
-  <li>Quick actions in the hero let you jump to <strong>Review deals</strong> or <strong>Create deal</strong>. Global search in the header looks across deals, contacts, and companies; pass <code class="language-plaintext highlighter-rouge">userId</code> in the URL to fetch the right workspace when you rely on HubSpot sync.</li>
+  <li>Pinpoint key decision-makers</li>
+  <li>Discover hidden influencers</li>
+  <li>Understand reporting lines</li>
+  <li>Navigate internal politics</li>
+  <li>Align sales messaging with each stakeholder’s goals</li>
 </ul>
 
-<h2 id="deals-workspace">Deals workspace</h2>
+<h2 id="integrating-org-charts-in-the-meddicc-process">Integrating Org Charts in the MEDDICC Process</h2>
+
+<p>Let’s break down how <strong>org charts</strong> support each part of the MEDDICC framework in the context of enterprise sales:</p>
+
+<h3 id="1-economic-buyer">1. Economic Buyer</h3>
+
+<p><strong>Goal</strong>: Identify the person with the authority to sign off on the purchase.</p>
+
+<p><strong>Org charts</strong> help you quickly locate the true Economic Buyer among dozens of executives.</p>
+
+<h3 id="2-decision-criteria--decision-process">2. Decision Criteria &amp; Decision Process</h3>
+
+<p><strong>Goal</strong>: Uncover what drives the purchasing decision and how it will be made.</p>
+
+<p>Understanding the org structure clarifies the internal approval chain and the influence of various stakeholders in the decision process.</p>
+
+<h3 id="3-identify-pain--champion">3. Identify Pain &amp; Champion</h3>
+
+<p><strong>Goal</strong>: Find who feels the problem most and who will advocate for your solution.</p>
+
+<p>Org charts reveal potential champions buried deeper in the org, not just those with the highest titles. Mapping internal influencers is key to building consensus.</p>
+
+<h3 id="4-metrics--competition">4. Metrics &amp; Competition</h3>
+
+<p><strong>Goal</strong>: Quantify your value and understand competitor positioning.</p>
+
+<p>With org charts, you can tailor metric-driven business cases to specific business units and identify departments where your competitors may have advocates.</p>
+
+<h2 id="best-practices-for-using-org-charts-in-enterprise-sales">Best Practices For Using Org Charts In Enterprise Sales</h2>
+
+<p>To leverage org charts within the <strong>MEDDICC</strong> framework:</p>
 
 <ul>
-  <li>List view: filter by stage, framework, or free-text search. Columns show stage, framework tag, score gauge (0–100), close date, and amount.</li>
-  <li>Built-in stages: Prospecting, Qualification, Discovery, Demo/Presentation, Proposal, Negotiation, Commit, Closed Won, Closed Lost.</li>
-  <li>Actions on CRM deals: create, clone, or delete. HubSpot-synced deals stay visible but cannot be edited here.</li>
-  <li>Associations: link contacts and companies from the deal form. Links are kept in sync both ways so related records always show each other.</li>
+  <li><strong>Research deeply</strong>: Use LinkedIn, company sites, and network connections to build a detailed org chart.</li>
+  <li><strong>Update continuously</strong>: Org structures shift often—stay current.</li>
+  <li><strong>Map buying centers</strong>: Highlight champions, decision makers, and blockers directly in your chart.</li>
+  <li><strong>Share with your team</strong>: Sales is a team sport; make sure everyone has the latest map.</li>
 </ul>
 
-<h3 id="deal-form-and-scoring-flow">Deal form and scoring flow</h3>
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>In high-stakes <strong>enterprise sales</strong> leveraging <strong>org charts</strong> within the <strong>MEDDICC</strong> framework leads to a more strategic, informed, and effective approach. Org charts provide a roadmap to stakeholder alignment, faster decision making, and, ultimately, more closed-won deals.</p>
+
+<p>If you’re aiming to master <strong>enterprise sales</strong> with MEDDICC, don’t overlook the power of org charts—they might just be your secret weapon.</p>
+
+<hr />
+
+<p><strong>Want more insights on MEDDICC, org charts, or enterprise sales?</strong><br />
+Subscribe to our newsletter and never miss a strategy update!</p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="MEDDICC" /><category term="org charts" /><category term="enterprise sales" /><summary type="html"><![CDATA[In the world of enterprise sales, teams often turn to frameworks like MEDDICC to win big deals. But one underrated tool can supercharge your sales p...]]></summary></entry><entry><title type="html">Unlocking Sales Success: How to Identify Decision Makers with Org Charts in HubSpot</title><link href="http://localhost:4000/blog/decision-makers-HubSpot-org-charts-sales-strategy/" rel="alternate" type="text/html" title="Unlocking Sales Success: How to Identify Decision Makers with Org Charts in HubSpot" /><published>2026-05-05T16:23:59+01:00</published><updated>2026-05-05T16:23:59+01:00</updated><id>http://localhost:4000/blog/decision-makers-HubSpot-org-charts-sales-strategy</id><content type="html" xml:base="http://localhost:4000/blog/decision-makers-HubSpot-org-charts-sales-strategy/"><![CDATA[<h1 id="unlocking-sales-success-how-to-identify-decision-makers-with-org-charts-in-hubspot">Unlocking Sales Success: How to Identify Decision Makers with Org Charts in HubSpot</h1>
+
+<p>In today’s competitive marketplace, finding the right decision makers within a target company can make or break your sales strategy. With the power of HubSpot org charts, sales teams can streamline prospecting, close deals faster, and build stronger relationships. This guide will show you exactly how to leverage HubSpot to identify decision makers and maximize your sales efforts.</p>
+
+<h2 id="why-identifying-decision-makers-matters">Why Identifying Decision Makers Matters</h2>
+
+<p>Targeting the right person is crucial in any sales process. Talking to someone without purchasing power often leads to dead ends, wasted time, and missed opportunities. By pinpointing decision makers from the outset, you:</p>
 
 <ul>
-  <li>Core fields: name, amount, close date, stage, and framework selector. Framework catalog includes MEDDICC, MEDDPICC, BANT, SPICED, GPCTBA/C&amp;I, FAINT, CHAMP, SCOTSMAN, ANUM, SPIN, and Command of the Message.</li>
-  <li>MEDDICC questions include optional inline guidance (info icon). AI feedback appears under each section and stays attached to the latest scoring run.</li>
-  <li><strong>Score with AI</strong> (or manual score edit) uses the model picked in Settings. AI returns per-section feedback, a numeric score (0–100), and <strong>Next steps</strong> / deal assessment.</li>
-  <li>Manual overrides: if allowed in Settings, reps can change frameworks per deal and edit the numeric score. Automatic rescoring after edits can be toggled in Settings.</li>
-  <li>Prerequisites: save the deal first; scoring needs completed MEDDICC fields. Automatic scoring re-runs after form edits when enabled.</li>
+  <li>Increase your chance of deal success</li>
+  <li>Shorten sales cycles</li>
+  <li>Build rapport with those who truly matter for your sales strategy</li>
 </ul>
 
-<h2 id="contacts-workspace">Contacts workspace</h2>
+<h2 id="hubspot-org-charts-your-secret-weapon">HubSpot Org Charts: Your Secret Weapon</h2>
+
+<p>HubSpot org charts are visual maps of an organization’s internal structure. They give you clarity on:</p>
 
 <ul>
-  <li>Fields: name, email, job title, and associated companies. Link deals so the contact appears in the follow-up queue.</li>
-  <li><strong>Assess with AI</strong> becomes available after saving the contact and linking at least one deal. The assessment returns a summary, talking points, and (when present) a draft email you can open from the card.</li>
-  <li>When HubSpot sync is active, HubSpot contacts display read-only; create CRM contacts to edit directly.</li>
+  <li>Who holds decision-making authority</li>
+  <li>How teams and departments are connected</li>
+  <li>Where influencers and gatekeepers sit within the company hierarchy</li>
 </ul>
 
-<h2 id="companies-workspace">Companies workspace</h2>
+<p>HubSpot makes it easy to attach org charts to your contact and company records, enabling quick reference for every prospect.</p>
+
+<h2 id="step-by-step-guide-how-to-identify-decision-makers-using-hubspot-org-charts">Step-by-Step Guide: How to Identify Decision Makers Using HubSpot Org Charts</h2>
+
+<h3 id="1-build-and-attach-org-charts">1. Build and Attach Org Charts</h3>
+
+<p>Start by gathering information about your prospect’s organization. With HubSpot, you can:</p>
 
 <ul>
-  <li>Track company name, website, industry, address, and description.</li>
-  <li>Link deals and contacts; gauges on the card show deal scores so you can judge account health. You can create a new deal directly from the company view and associate existing deals via the modal.</li>
+  <li>Use contact records to map out reporting relationships</li>
+  <li>Add custom properties or notes with titles and responsibilities</li>
+  <li>Leverage third-party integrations to enrich your org charts with verified data</li>
 </ul>
 
-<h2 id="settings-and-administration-admins-only">Settings and administration (admins only)</h2>
+<p>Attach these charts directly to company records for easy team access.</p>
+
+<h3 id="2-analyze-roles-and-titles">2. Analyze Roles and Titles</h3>
+
+<p>Decision makers often have titles such as:</p>
 
 <ul>
-  <li><strong>Data sources &amp; access</strong>: CRM data is always on. Optionally connect HubSpot; pick whether reps can switch frameworks, edit scores, and view reports.</li>
-  <li><strong>Scoring &amp; AI</strong>:
-    <ul>
-      <li>Scoring method: “All questions combined” vs. “Per section averages” (0/0.5/1 per section, averaged and scaled to 0–100).</li>
-      <li>AI provider: OpenAI (GPT 4.1), Google (Gemini 2.5), Anthropic (Sonnet 4), Meta (Llama 4 via Groq), GPT-OSS (via Groq), or Azure OpenAI. Azure fields (resource/base URL, API key) are stored encrypted.</li>
-      <li>Automatic scoring toggle: when on, rescoring runs after users edit MEDDICC fields.</li>
-    </ul>
-  </li>
-  <li><strong>Company profile</strong>: add name, industry, value proposition, pains, and product list to keep AI answers on-brand.</li>
-  <li><strong>Frameworks</strong>: choose the default framework for new deals and edit questions/guidance per section. At least one question per section is required; changes apply to all workspace members going forward.</li>
-  <li><strong>Users &amp; licenses</strong>: see seats used vs. available, invite teammates (free or premium), upgrade/downgrade seats, promote/demote admins, or delete users. Premium/Team plans add included seats; free workspaces start with zero included seats.</li>
-  <li><strong>Billing</strong>: open the customer portal or upgrade flow from Settings. The UI “danger zone” delete option is intentionally disabled right now.</li>
+  <li>CEO, COO, CFO, or CMO for C-level decisions</li>
+  <li>VP, Director, or Head of Department for functional area choices</li>
+  <li>Manager or Team Lead for day-to-day purchases</li>
 </ul>
 
-<h2 id="limits-and-billing-behavior">Limits and billing behavior</h2>
+<p>Review the org chart to spot these key roles.</p>
+
+<h3 id="3-trace-lines-of-influence">3. Trace Lines of Influence</h3>
+
+<p>Beyond formal titles, look for:</p>
 
 <ul>
-  <li>Free plan: up to 5 deals, 5 contacts, 5 companies; creating the 6th shows the paywall.</li>
-  <li>Premium/Team: removes low record limits and adds seats. Upgrade via the header button or <strong>Settings → Billing &amp; workspace health</strong>.</li>
+  <li>Dotted-line relationships: influential advisors or technical evaluators</li>
+  <li>Cross-functional liaisons: connections between departments that may sway decisions</li>
 </ul>
 
-<h2 id="troubleshooting-tips">Troubleshooting tips</h2>
+<p>HubSpot org charts help you visualize not just who’s in charge, but also who influences buying decisions.</p>
+
+<h3 id="4-confirm-and-update-information">4. Confirm and Update Information</h3>
+
+<p>Before reaching out, confirm the org chart with a friendly contact at the company, or cross-reference with LinkedIn or email introductions. Always keep your HubSpot org charts updated for accuracy.</p>
+
+<h3 id="5-personalize-your-outreach">5. Personalize Your Outreach</h3>
+
+<p>Once you know the decision makers, tailor your messaging to their role and challenges. Use insights from the org chart to reference relevant stakeholders or concerns—demonstrating that you’ve done your homework and understand their internal dynamics.</p>
+
+<h2 id="pro-tips-for-sales-strategy-success">Pro Tips for Sales Strategy Success</h2>
 
 <ul>
-  <li>Seeing sample data or empty lists? Make sure you are signed in; if relying on HubSpot sync, pass the correct <code class="language-plaintext highlighter-rouge">userId</code> and verify the connection in <strong>Settings → Data sources</strong>.</li>
-  <li>Cannot edit a record? HubSpot-synced records are read-only inside this CRM; create or clone a CRM record to edit.</li>
-  <li>“Score with AI” disabled? Save the deal and fill in MEDDICC fields; scoring is available once the deal exists and has content.</li>
-  <li>Contact assessment button missing? Save the contact and link at least one deal so AI has context.</li>
-  <li>Hitting seat or record limits? Check <strong>Settings → Users</strong> for seat usage, or upgrade from the header or Settings.</li>
-</ul>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="setup guide" /><summary type="html"><![CDATA[Guide for setting up and using Meddicc Score inside the standalone CRM experience.]]></summary></entry></feed>
+  <li><strong>Collaborate with your team:</strong> Use shared org charts in HubSpot to keep everyone aligned on account strategy.</li>
+  <li><strong>Leverage automation:</strong> Let HubSpot workflows remind you of follow-ups with key decision makers.</li>
+  <li><strong>Monitor organizational changes:</strong> Set alerts for updates or new hires that could affect your sales approach.</li>
+</ul>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>Identifying decision makers is the cornerstone of an effective sales strategy. HubSpot org charts simplify this process, empower your team, and give you a competitive edge. Start using org charts in HubSpot today—and watch your sales results soar.</p>
+
+<p><strong>Ready to supercharge your prospecting? Explore HubSpot org charts and elevate your sales strategy now!</strong></p>
+
+<p><strong>Keywords:</strong> decision makers, HubSpot org charts, sales strategy</p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="decision makers" /><category term="HubSpot org charts" /><category term="sales strategy" /><summary type="html"><![CDATA[In today’s competitive marketplace, finding the right decision makers within a target company can make or break your sales strategy. With the power of HubSp...]]></summary></entry><entry><title type="html">Turning HubSpot Contacts into Powerful Account Maps for Relationship Mapping</title><link href="http://localhost:4000/blog/HubSpot-contacts-account-maps-relationship-mapping/" rel="alternate" type="text/html" title="Turning HubSpot Contacts into Powerful Account Maps for Relationship Mapping" /><published>2026-05-05T16:23:22+01:00</published><updated>2026-05-05T16:23:22+01:00</updated><id>http://localhost:4000/blog/HubSpot-contacts-account-maps-relationship-mapping</id><content type="html" xml:base="http://localhost:4000/blog/HubSpot-contacts-account-maps-relationship-mapping/"><![CDATA[<h1 id="turning-hubspot-contacts-into-powerful-account-maps-for-relationship-mapping">Turning HubSpot Contacts into Powerful Account Maps for Relationship Mapping</h1>
+
+<p>Managing and nurturing business relationships is crucial to achieving sales and customer success. But as your database grows, making sense of all your HubSpot contacts can get complicated. That’s where account maps and relationship mapping come in. In this guide, learn how to transform your HubSpot data into actionable visual maps that deepen relationships and drive strategic results.</p>
+
+<h2 id="what-are-account-maps-and-why-do-they-matter">What Are Account Maps and Why Do They Matter?</h2>
+
+<p>Account maps are visual representations of key contacts and decision-makers within an organization. They show how individuals relate to one another, their roles, and the influence they have on purchasing decisions.</p>
+
+<p><strong>Relationship mapping</strong> is the process of documenting and visualizing relationships between stakeholders. For sales and account managers, this empowers smarter engagement, uncovers hidden influencers, and identifies critical paths for closing deals.</p>
+
+<p><strong>Why is this important?</strong></p>
+
+<ul>
+  <li><strong>Better context:</strong> You immediately understand who’s who inside complex buying groups.</li>
+  <li><strong>Personalized outreach:</strong> Tailor your messaging based on true influence networks.</li>
+  <li><strong>Stronger deals:</strong> Reduce risk by engaging stakeholders beyond your initial champion.</li>
+</ul>
+
+<h2 id="challenges-with-hubspot-contacts">Challenges with HubSpot Contacts</h2>
+
+<p>HubSpot is a powerhouse for managing contacts and tracking engagements. However, it lacks native tools for visual <strong>account maps</strong> or advanced relationship mapping. Most companies struggle to translate a growing list of <strong>HubSpot contacts</strong> into the strategic insights needed to win complex deals.</p>
+
+<h3 id="common-issues">Common Issues</h3>
+
+<ul>
+  <li><strong>Siloed data:</strong> Contacts are often scattered, making it hard to see the bigger picture.</li>
+  <li><strong>Missed connections:</strong> Without visibility, key influencers or blockers may go unnoticed.</li>
+  <li><strong>Manual updates:</strong> Relationship knowledge lives in sales reps’ heads, not in your CRM.</li>
+</ul>
+
+<h2 id="how-to-build-account-maps-from-hubspot-data">How to Build Account Maps from HubSpot Data</h2>
+
+<p>Luckily, there are ways to turn your HubSpot contact list into strategic gold. Here’s how:</p>
+
+<h3 id="1-export-and-organize-hubspot-contacts">1. Export and Organize HubSpot Contacts</h3>
+
+<p>Start by exporting your HubSpot contacts with key properties:</p>
+
+<ul>
+  <li>Name</li>
+  <li>Job title/role</li>
+  <li>Company</li>
+  <li>Relationship to account (Champion, Decision Maker, Influencer, etc.)</li>
+  <li>Engagement data</li>
+</ul>
+
+<h3 id="2-identify-key-stakeholders">2. Identify Key Stakeholders</h3>
+
+<p>Segment stakeholders by:</p>
+
+<ul>
+  <li>Buying role (economic buyer, technical buyer, end user, etc.)</li>
+  <li>Department and location</li>
+  <li>Existing relationship strength or previous interactions</li>
+</ul>
+
+<h3 id="3-visualize-relationships-with-account-mapping-tools">3. Visualize Relationships with Account Mapping Tools</h3>
+
+<p>Use external tools or HubSpot integrations (such as Lucidchart, OrgChartHub, or Smaply) to build your relationship maps.</p>
+
+<ul>
+  <li>Drag and drop contacts into positions.</li>
+  <li>Draw relationship lines (positive, neutral, or negative).</li>
+  <li>Use icons, colors, and notes to summarize interactions.</li>
+</ul>
+
+<h3 id="4-sync-insights-back-into-hubspot">4. Sync Insights Back into HubSpot</h3>
+
+<p>After mapping, import key findings to HubSpot contact records.</p>
+
+<ul>
+  <li>Add custom fields for “Influence Level” or “Internal Relationship”</li>
+  <li>Update notes with relationship history</li>
+  <li>Schedule tasks for relationship building</li>
+</ul>
+
+<h3 id="5-keep-your-maps-updated">5. Keep Your Maps Updated</h3>
+
+<p>Account maps are living assets:</p>
+
+<ul>
+  <li>Update after every significant meeting or deal stage</li>
+  <li>Involve the whole account team for accuracy</li>
+</ul>
+
+<h2 id="pro-tips-for-smarter-relationship-mapping">Pro Tips for Smarter Relationship Mapping</h2>
+
+<ul>
+  <li><strong>Automate where possible:</strong> Use workflows and integrations to sync data between your account mapping tool and HubSpot.</li>
+  <li><strong>Align with sales process:</strong> Tie relationship mapping reviews to deal pipeline stages.</li>
+  <li><strong>Empower the team:</strong> Train reps to gather relationship insights during their regular outreach.</li>
+</ul>
+
+<h2 id="top-tools-for-account-mapping-with-hubspot-contacts">Top Tools for Account Mapping with HubSpot Contacts</h2>
+
+<ul>
+  <li><strong>OrgChartHub:</strong> Directly integrated with HubSpot for easy org chart building.</li>
+  <li><strong>Lucidchart:</strong> Powerful for custom relationship maps, with HubSpot data syncing.</li>
+  <li><strong>Smaply:</strong> Great for journey and relationship mapping.</li>
+</ul>
+
+<h2 id="conclusion-from-data-to-account-intelligence">Conclusion: From Data to Account Intelligence</h2>
+
+<p>Visualizing your <strong>HubSpot contacts</strong> through <strong>account maps</strong> unlocks the real power of <strong>relationship mapping</strong>. It shifts your sales strategy from a contact list to a relationship-driven approach, helping you win more deals, reduce risk, and nurture lasting partnerships.</p>
+
+<p>Ready to map your next major account? Start turning your HubSpot data into actionable visual maps today and stay ahead in the relationship-driven sales game.</p>
+
+<p><strong>Keywords:</strong> HubSpot contacts, account maps, relationship mapping<br />
+<strong>Recommended Reading:</strong> <a href="#">How to Organize Contacts in HubSpot for Maximum Impact</a>, <a href="#">Best Account Mapping Tools for 2024</a></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="HubSpot contacts" /><category term="account maps" /><category term="relationship mapping" /><summary type="html"><![CDATA[Managing and nurturing business relationships is crucial to achieving sales and customer success. But as your database grows, making sense of all your HubSp...]]></summary></entry><entry><title type="html">Unlocking Better Deal Qualification in HubSpot Sales with Org Charts</title><link href="http://localhost:4000/blog/deal-qualification-HubSpot-sales-org-charts/" rel="alternate" type="text/html" title="Unlocking Better Deal Qualification in HubSpot Sales with Org Charts" /><published>2026-05-05T16:21:46+01:00</published><updated>2026-05-05T16:21:46+01:00</updated><id>http://localhost:4000/blog/deal-qualification-HubSpot-sales-org-charts</id><content type="html" xml:base="http://localhost:4000/blog/deal-qualification-HubSpot-sales-org-charts/"><![CDATA[<h1 id="unlocking-better-deal-qualification-in-hubspot-sales-with-org-charts">Unlocking Better Deal Qualification in HubSpot Sales with Org Charts</h1>
+
+<p>In the fast-paced world of B2B sales, deal qualification is everything. One of the most underutilized tools that can revolutionize your HubSpot sales process is the humble but powerful org chart. Let’s explore how org charts improve deal qualification in HubSpot, and how you can leverage them for more efficient selling.</p>
+
+<hr />
+
+<h2 id="what-is-deal-qualification-in-hubspot-sales">What is Deal Qualification in HubSpot Sales?</h2>
+
+<p>Deal qualification in HubSpot sales means evaluating prospects to ensure they’re a good fit, have the budget, and the authority to buy. Good qualification prevents sales teams from wasting time pursuing dead-end opportunities. This process helps you focus on high-potential leads, improving your close rates and boosting your funnel efficiency.</p>
+
+<hr />
+
+<h2 id="the-role-of-org-charts-in-deal-qualification">The Role of Org Charts in Deal Qualification</h2>
+
+<p>Org charts, or organizational charts, visualize the hierarchy and relationships within a target company. When integrated into your HubSpot sales workflow, they bring three crucial advantages:</p>
+
+<h3 id="1-identifying-decision-makers-and-influencers">1. Identifying Decision Makers and Influencers</h3>
+
+<p>An org chart maps out every key player in your target account. You can instantly spot:</p>
+
+<ul>
+  <li>The economic decision maker</li>
+  <li>Gatekeepers</li>
+  <li>Champions</li>
+  <li>Influencers</li>
+</ul>
+
+<p>By seeing these roles at a glance, your deal qualification becomes smarter. You won’t waste time selling to the wrong contact—HubSpot users can attach org charts directly to contact and deal records for quick reference.</p>
+
+<h3 id="2-navigating-complex-buying-groups">2. Navigating Complex Buying Groups</h3>
+
+<p>B2B deals often involve multiple stakeholders. Org charts help HubSpot sales reps:</p>
+
+<ul>
+  <li>Understand reporting structures</li>
+  <li>Track buying committees</li>
+  <li>Pinpoint internal advocates</li>
+</ul>
+
+<p>With this clarity, you can tailor messages and strategies to each stakeholder, dramatically improving your chances of progressing the deal.</p>
+
+<h3 id="3-forecasting-and-risk-management">3. Forecasting and Risk Management</h3>
+
+<p>Not all risks are obvious. An org chart highlights:</p>
+
+<ul>
+  <li>Gaps in your relationship within the account</li>
+  <li>Missing information on key roles</li>
+  <li>Areas where competitors have stronger ties</li>
+</ul>
+
+<p>With these insights, your deal qualification in HubSpot is driven by data, not guesswork.</p>
+
+<hr />
+
+<h2 id="how-to-use-org-charts-in-hubspot-sales">How to Use Org Charts in HubSpot Sales</h2>
+
+<p>Ready to integrate org charts into your HubSpot sales process? Here’s a quick guide:</p>
+
+<ol>
+  <li><strong>Build the Org Chart:</strong> Use LinkedIn, company websites, and direct conversations to outline the company structure.</li>
+  <li><strong>Attach Org Charts to HubSpot Records:</strong> Upload images or use HubSpot partnerships (like wizard tools or Chrome extensions) to keep org charts handy.</li>
+  <li><strong>Tag Key Roles:</strong> Mark each stakeholder as champion, influencer, decision maker, or blocker.</li>
+  <li><strong>Regularly Update:</strong> As you learn more, refine the org chart. This keeps your deal qualification accurate and up to date.</li>
+</ol>
+
+<hr />
+
+<h2 id="the-seo-advantage-why-optimize-for-deal-qualification-hubspot-sales-and-org-charts">The SEO Advantage: Why Optimize for “Deal Qualification,” “HubSpot Sales,” and “Org Charts”</h2>
+
+<p>By aligning your sales content and workflows around targeted keywords like deal qualification, HubSpot sales, and org charts, you ensure your team—and your customers—are speaking the same language. Search intent shows buyers want actionable, practical tips, and integrating org charts ticks that box.</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Org charts aren’t just for HR. When used in HubSpot sales, they’re a powerhouse for deal qualification. They help you navigate large organizations, engage the right people, and close deals with confidence. Start mapping your key accounts today and watch your sales process transform!</p>
+
+<hr />
+
+<p><strong>Ready to take your HubSpot sales to the next level? Start using org charts for unrivaled deal qualification efficiency.</strong></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="deal qualification" /><category term="HubSpot sales" /><category term="org charts" /><summary type="html"><![CDATA[In the fast-paced world of B2B sales, deal qualification is everything. One of the most underutilized tools that can revolutionize your HubSpot sales proces...]]></summary></entry><entry><title type="html">Unlocking the Potential: The Missing Org Chart Layer in HubSpot CRM</title><link href="http://localhost:4000/blog/HubSpot-CRM-org-chart-tool-visualization/" rel="alternate" type="text/html" title="Unlocking the Potential: The Missing Org Chart Layer in HubSpot CRM" /><published>2026-05-05T16:19:36+01:00</published><updated>2026-05-05T16:19:36+01:00</updated><id>http://localhost:4000/blog/HubSpot-CRM-org-chart-tool-visualization</id><content type="html" xml:base="http://localhost:4000/blog/HubSpot-CRM-org-chart-tool-visualization/"><![CDATA[<h1 id="unlocking-the-potential-the-missing-org-chart-layer-in-hubspot-crm">Unlocking the Potential: The Missing Org Chart Layer in HubSpot CRM</h1>
+
+<p>As more businesses depend on HubSpot CRM to centralize customer data, many users quickly discover a significant limitation: the lack of an org chart tool for CRM visualization. Visualizing company hierarchies and stakeholder relationships is vital for meaningful engagement and strategic selling, but HubSpot CRM lacks a built-in solution. This post explores why an org chart layer is essential, the gaps it leaves, and how to regain clarity over your CRM data.</p>
+
+<h2 id="why-org-chart-visualization-matters-in-crm">Why Org Chart Visualization Matters in CRM</h2>
+
+<p>HubSpot CRM excels at tracking leads, deals, and touchpoints, but understanding decision-makers and reporting lines within a company is just as important. Here’s why CRM visualization with an org chart tool is a game-changer:</p>
+
+<ul>
+  <li><strong>Stakeholder Mapping</strong>: Sales teams can see who holds influence and who are the key decision-makers.</li>
+  <li><strong>Strategic Targeting</strong>: Marketers and sellers tailor communication based on hierarchy and responsibilities.</li>
+  <li><strong>Relationship Tracking</strong>: Identify new opportunities by visualizing connections across departments and teams.</li>
+</ul>
+
+<p>Without this layer of CRM visualization, organizations risk flying blind when pursuing crucial deals.</p>
+
+<h2 id="where-hubspot-crm-falls-short">Where HubSpot CRM Falls Short</h2>
+
+<p>While HubSpot CRM offers exceptional features, here’s where its visualization capabilities are limited:</p>
+
+<ol>
+  <li><strong>No Native Org Chart Tool:</strong> HubSpot contacts and companies are not visually represented, making it difficult to understand organizational structures.</li>
+  <li><strong>Manual Workarounds:</strong> Users must piece together org charts outside of HubSpot CRM, leading to fragmented data and inefficiencies.</li>
+  <li><strong>Reduced Account-Based Marketing (ABM) Effectiveness:</strong> ABM campaigns thrive on insight into account hierarchies—without visualization, these efforts are less precise.</li>
+  <li><strong>Missed Upsell/Cross-Sell Opportunities:</strong> Without seeing lateral relationships, cross-selling within an organization becomes challenging.</li>
+</ol>
+
+<h2 id="the-solution-integrating-org-chart-tools-with-hubspot-crm">The Solution: Integrating Org Chart Tools with HubSpot CRM</h2>
+
+<p>Adding an org chart tool layer seamlessly bridges this gap and unlocks powerful CRM visualization within HubSpot CRM. Here’s how:</p>
+
+<ul>
+  <li><strong>Automatic Org Chart Creation:</strong> Tools like Lucidchart or specialized HubSpot integrations extract CRM data to build and update hierarchical org charts automatically.</li>
+  <li><strong>Enhanced Deal Management:</strong> Visual workflows help sales teams track multi-stakeholder engagement and pinpoint roadblocks.</li>
+  <li><strong>Data Consistency:</strong> Integrated org chart tools ensure all users see the same up-to-date relationship mapping, reducing errors and duplicated efforts.</li>
+</ul>
+
+<h3 id="how-to-add-an-org-chart-tool-to-hubspot-crm">How to Add an Org Chart Tool to HubSpot CRM</h3>
+
+<ol>
+  <li><strong>Choose a Compatible Tool:</strong> Evaluate third-party tools or HubSpot Marketplace apps that offer org chart integration.</li>
+  <li><strong>Sync CRM Data:</strong> Connect your HubSpot CRM account and map fields (such as contact roles, reporting lines, departments).</li>
+  <li><strong>Customize Visualization:</strong> Tailor the chart to your sales process, highlighting key influencers or blockers.</li>
+  <li><strong>Use in Daily Workflows:</strong> Integrate org chart views into deal records or company profiles for always-on access during calls, meetings, or strategy sessions.</li>
+</ol>
+
+<h2 id="top-org-chart-tools-for-hubspot-crm">Top Org Chart Tools for HubSpot CRM</h2>
+
+<p>If you’re ready to enhance your CRM visualization, here are a few solutions to consider:</p>
+
+<ul>
+  <li><strong>Lucidchart for HubSpot:</strong> Offers dynamic org chart generation directly from CRM data.</li>
+  <li><strong>OrgChartHub:</strong> Built specifically for HubSpot, enabling direct sync and easy embedding into CRM views.</li>
+  <li><strong>Microsoft Visio (with Connectors):</strong> Ideal for teams already using Microsoft 365, though setup may be more complex.</li>
+</ul>
+
+<h2 id="conclusion-empower-your-teams-with-better-crm-visualization">Conclusion: Empower Your Teams with Better CRM Visualization</h2>
+
+<p>The absence of an org chart layer is a missing link in HubSpot CRM’s otherwise robust feature set. By integrating an org chart tool, you transform static contact lists into actionable relationship maps. Enhanced CRM visualization means better deal outcomes, improved account management, and higher team efficiency.</p>
+
+<p><strong>Ready to bridge the gap? Start evaluating org chart tools for HubSpot CRM today, and unlock strategic insights in every customer interaction.</strong></p>
+
+<p><strong>FAQs:</strong></p>
+
+<p><strong>Q: Does HubSpot CRM have built-in org chart functionality?</strong><br />
+A: Not currently. You need a third-party org chart tool to add this layer.</p>
+
+<p><strong>Q: Can visualization tools sync in real-time with HubSpot CRM?</strong><br />
+A: Yes, most integration tools update org charts automatically as CRM data changes.</p>
+
+<p><strong>Q: Is CRM visualization useful for small teams?</strong><br />
+A: Absolutely—understanding relationships can benefit organizations of any size, especially in complex or high-value sales environments.</p>
+
+<p><em>For more insight into enhancing HubSpot CRM or tips on sales operations, subscribe to our blog and stay ahead in CRM best practices!</em></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="HubSpot CRM" /><category term="org chart tool" /><category term="CRM visualization" /><summary type="html"><![CDATA[As more businesses depend on HubSpot CRM to centralize customer data, many users quickly discover a significant limitation the lack of an org chart tool fo...]]></summary></entry><entry><title type="html">Visualizing Stakeholders in HubSpot: The Key to Winning More Enterprise Deals</title><link href="http://localhost:4000/blog/HubSpot-stakeholders-enterprise-sales-stakeholder-visualization/" rel="alternate" type="text/html" title="Visualizing Stakeholders in HubSpot: The Key to Winning More Enterprise Deals" /><published>2026-05-05T12:03:14+01:00</published><updated>2026-05-05T12:03:14+01:00</updated><id>http://localhost:4000/blog/HubSpot-stakeholders-enterprise-sales-stakeholder-visualization</id><content type="html" xml:base="http://localhost:4000/blog/HubSpot-stakeholders-enterprise-sales-stakeholder-visualization/"><![CDATA[<h1 id="visualizing-stakeholders-in-hubspot-the-key-to-winning-more-enterprise-deals">Visualizing Stakeholders in HubSpot: The Key to Winning More Enterprise Deals</h1>
+
+<p>Managing enterprise sales is rarely a solo act. The more complex the deal, the larger the buying committee—and the greater the need to keep track of every key player. But as any enterprise rep knows, mapping stakeholders can quickly get chaotic. That’s where leveraging stakeholder visualization in HubSpot can make a transformative difference.</p>
+
+<p>In this post, we’ll break down how to visualize HubSpot stakeholders, why it matters for enterprise sales, and actionable steps to manage stakeholder relationships more effectively.</p>
+
+<hr />
+
+<h2 id="why-stakeholder-visualization-matters-in-enterprise-sales">Why Stakeholder Visualization Matters in Enterprise Sales</h2>
+
+<p>In modern enterprise sales, decisions are highly collaborative. According to Gartner, the average B2B buying group now includes 6-10 decision makers. Losing track of just one influencer can stall—or even sink—a deal.</p>
+
+<p><strong>Key Pain Points:</strong></p>
+<ul>
+  <li>Difficulty identifying all relevant stakeholders</li>
+  <li>Lack of clarity on stakeholder influence, role, or sentiment</li>
+  <li>Missed opportunities to engage or align key players</li>
+</ul>
+
+<p>With strong stakeholder visualization, sales teams can:</p>
+<ul>
+  <li>See all decision makers and influencers at a glance</li>
+  <li>Plan tailored outreach for each stakeholder</li>
+  <li>Avoid costly missteps or knowledge gaps during handoffs</li>
+</ul>
+
+<hr />
+
+<h2 id="how-hubspot-helps-you-manage-and-visualize-stakeholders">How HubSpot Helps You Manage and Visualize Stakeholders</h2>
+
+<p>HubSpot CRM offers robust tools for tracking deals, but it shines when you actively map and visualize stakeholders. Here’s how you can leverage HubSpot stakeholders management for your advantage:</p>
+
+<h3 id="1-use-custom-properties-for-role-and-influence">1. <strong>Use Custom Properties for Role and Influence</strong></h3>
+
+<p>Standard contact properties are often too generic for enterprise deals. Add custom properties to each contact for:</p>
+<ul>
+  <li>Stakeholder role (Decision maker, Influencer, Gatekeeper, etc.)</li>
+  <li>Decision influence (High, Medium, Low)</li>
+  <li>Current sentiment or advocacy level (Supportive, Neutral, Opposed)</li>
+</ul>
+
+<h3 id="2-create-stakeholder-visualization-diagrams">2. <strong>Create Stakeholder Visualization Diagrams</strong></h3>
+
+<p>Use HubSpot’s integrations or third-party apps (e.g., Lucidchart, OrgChartHub) to build visual stakeholder maps directly from your CRM data. These tools allow you to:</p>
+<ul>
+  <li>Build org charts connected to HubSpot records</li>
+  <li>Display relationships, reporting lines, and influence paths</li>
+  <li>Update charts in real time as new contacts emerge</li>
+</ul>
+
+<h3 id="3-leverage-hubspot-deal-notes--timeline">3. <strong>Leverage HubSpot Deal Notes &amp; Timeline</strong></h3>
+
+<p>Log every communication by tagging stakeholders and logging their reactions or feedback. Over time, this builds a powerful deal timeline—essential for enterprise sales team handovers and leadership reporting.</p>
+
+<hr />
+
+<h2 id="step-by-step-setting-up-stakeholder-visualization-in-hubspot">Step-by-Step: Setting Up Stakeholder Visualization in HubSpot</h2>
+
+<p>Ready to put these ideas into action? Follow these steps to get started:</p>
+
+<h3 id="step-1-identify-and-tag-stakeholders-in-hubspot">Step 1: <strong>Identify and Tag Stakeholders in HubSpot</strong></h3>
+
+<ul>
+  <li>Go to the relevant deal in your HubSpot pipeline.</li>
+  <li>Link all associated contacts (not just the primary one).</li>
+  <li>Add custom properties or tags for each stakeholder’s role and influence.</li>
+</ul>
+
+<h3 id="step-2-integrate-visualization-tools">Step 2: <strong>Integrate Visualization Tools</strong></h3>
+
+<ul>
+  <li>Explore OrgChartHub or similar apps from the <a href="https://ecosystem.hubspot.com/marketplace/apps">HubSpot App Marketplace</a>.</li>
+  <li>Sync your contacts and use the tool to build your stakeholder map.</li>
+  <li>Attach the visualization to the deal record for quick reference.</li>
+</ul>
+
+<h3 id="step-3-update-and-review-regularly">Step 3: <strong>Update and Review Regularly</strong></h3>
+
+<ul>
+  <li>Schedule a recurring internal meeting to review stakeholder statuses.</li>
+  <li>Update roles, influence, sentiment, and any org chart changes in HubSpot.</li>
+  <li>Share updates with your team to ensure alignment.</li>
+</ul>
+
+<hr />
+
+<h2 id="best-practices-for-managing-hubspot-stakeholders">Best Practices for Managing HubSpot Stakeholders</h2>
+
+<ul>
+  <li><strong>Document Everything:</strong> Record notes after every meeting or call.</li>
+  <li><strong>Promote Internal Collaboration:</strong> Encourage your sales, marketing, and customer success teams to contribute intel on key accounts.</li>
+  <li><strong>Review Stakeholder Maps Before Major Actions:</strong> Especially before proposals, pricing discussions, or executive meetings.</li>
+  <li><strong>Leverage Automation:</strong> Use HubSpot workflows to alert reps when stakeholders’ properties change or new contacts are added.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>As enterprise sales become more complex, the old “one-contact-per-deal” approach simply doesn’t cut it. Visualizing stakeholders in HubSpot means less guesswork, fewer missed opportunities, and a dramatically smoother path to closed-won.</p>
+
+<p>By leveraging stakeholder visualization in your HubSpot CRM, you’ll empower your team to build deeper relationships, tailor your approach for each influencer, and—most importantly—win more enterprise deals.</p>
+
+<p><strong>Ready to elevate your stakeholder management? Try stakeholder visualization in HubSpot today, and transform how you win big deals.</strong></p>
+
+<hr />
+
+<p><strong>Keywords:</strong> HubSpot stakeholders, enterprise sales, stakeholder visualization</p>
+
+<p><em>If you found this guide useful, explore more of our enterprise sales enablement tips or subscribe for the latest on HubSpot best practices!</em></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="HubSpot stakeholders" /><category term="enterprise sales" /><category term="stakeholder visualization" /><summary type="html"><![CDATA[Managing enterprise sales is rarely a solo act. The more complex the deal, the larger the buying committee—and the greater the need to keep track of every k...]]></summary></entry><entry><title type="html">Mastering the Buying Committee: How Sales Org Charts and Stakeholder Mapping Drive More Wins</title><link href="http://localhost:4000/blog/buying-committee-sales-org-chart-stakeholder-mapping/" rel="alternate" type="text/html" title="Mastering the Buying Committee: How Sales Org Charts and Stakeholder Mapping Drive More Wins" /><published>2026-05-04T20:21:55+01:00</published><updated>2026-05-04T20:21:55+01:00</updated><id>http://localhost:4000/blog/buying-committee-sales-org-chart-stakeholder-mapping</id><content type="html" xml:base="http://localhost:4000/blog/buying-committee-sales-org-chart-stakeholder-mapping/"><![CDATA[<h1 id="mastering-the-buying-committee-how-sales-org-charts-and-stakeholder-mapping-drive-more-wins">Mastering the Buying Committee: How Sales Org Charts and Stakeholder Mapping Drive More Wins</h1>
+
+<p>In today’s B2B sales landscape, winning a deal rarely hinges on convincing a single decision-maker. Instead, understanding and influencing the intricate buying committee is the key to sales success. Leveraging a <strong>sales org chart</strong> and applying effective <strong>stakeholder mapping</strong> help your sales team navigate this complex process and close more deals.</p>
+
+<hr />
+
+<h2 id="what-is-a-buying-committee">What is a Buying Committee?</h2>
+
+<p>A buying committee is a group of stakeholders from an organization who collectively assess and approve major purchasing decisions. Instead of a single point of contact, modern enterprises involve various roles, such as:</p>
+
+<ul>
+  <li>Decision-makers</li>
+  <li>Influencers</li>
+  <li>End users</li>
+  <li>Gatekeepers</li>
+  <li>Technical evaluators</li>
+</ul>
+
+<p>Each member has unique priorities and concerns, making it essential for your sales approach to be flexible and comprehensive.</p>
+
+<hr />
+
+<h2 id="why-buying-committees-matter-in-b2b-sales">Why Buying Committees Matter in B2B Sales</h2>
+
+<p>Outdated sales tactics aimed at a single “decision maker” no longer suffice. Gartner research shows the average B2B purchase now involves between 6 and 10 stakeholders. This complexity increases with the size and strategic importance of the purchase.</p>
+
+<p>Failing to engage the whole buying committee can result in lost deals—even if your main contact champions your solution. That’s why mapping the structure and influence of each stakeholder is crucial.</p>
+
+<hr />
+
+<h2 id="the-role-of-a-sales-org-chart">The Role of a Sales Org Chart</h2>
+
+<p>A <strong>sales org chart</strong> is a visual representation of the buying organization, revealing key individuals, reporting lines, and informal networks. Here’s how a sales org chart empowers sales professionals:</p>
+
+<ol>
+  <li><strong>Uncover Decision Dynamics:</strong> Identify the budget holder, technical adviser, potential blockers, and executive sponsor.</li>
+  <li><strong>Prioritize Outreach:</strong> Target the most influential contacts and not just the most visible ones.</li>
+  <li><strong>Personalize Messaging:</strong> Adapt sales collateral for each stakeholder’s unique needs and authority level.</li>
+  <li><strong>Track Progress:</strong> Visualize engagement across the committee, ensuring no critical stakeholder is left out.</li>
+</ol>
+
+<hr />
+
+<h2 id="how-to-build-an-effective-sales-org-chart">How to Build an Effective Sales Org Chart</h2>
+
+<ol>
+  <li><strong>Leverage Discovery Conversations:</strong> Ask smart questions during calls and meetings to uncover team structures.</li>
+  <li><strong>Utilize LinkedIn and CRM Data:</strong> Research titles, roles, and past group interactions.</li>
+  <li><strong>Update Consistently:</strong> Keep your org chart dynamic to reflect promotions, new hires, or changes in responsibility.</li>
+</ol>
+
+<hr />
+
+<h2 id="stakeholder-mapping-going-beyond-names-and-titles">Stakeholder Mapping: Going Beyond Names and Titles</h2>
+
+<p>While a sales org chart shows hierarchy, <strong>stakeholder mapping</strong> analyzes:</p>
+
+<ul>
+  <li>Stakeholder influence and authority</li>
+  <li>Level of support or resistance to your solution</li>
+  <li>Communication preferences and pain points</li>
+</ul>
+
+<h3 id="steps-to-effective-stakeholder-mapping">Steps to Effective Stakeholder Mapping</h3>
+
+<ol>
+  <li><strong>List All Stakeholders:</strong> Include not just your main contact but also legal, procurement, IT, operations, and end-users.</li>
+  <li><strong>Assess Influence and Attitude:</strong> Use frameworks like a power-interest grid to categorize stakeholders (e.g., Champions vs. Blockers).</li>
+  <li><strong>Tailor Engagement:</strong> Develop targeted strategies for neutralizing skeptics and empowering internal advocates.</li>
+</ol>
+
+<hr />
+
+<h2 id="actionable-tips-for-sales-teams">Actionable Tips for Sales Teams</h2>
+
+<ul>
+  <li><strong>Document Early and Often</strong>: Don’t wait until late in the sales process to build your org chart and stakeholder map.</li>
+  <li><strong>Collaborate With Customer Success and Marketing</strong>: Share insights to align messaging and implementation strategies.</li>
+  <li><strong>Leverage Technology</strong>: Use CRM plugins or specialized tools for org chart and stakeholder management.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion-the-competitive-advantage-of-stakeholder-intelligence">Conclusion: The Competitive Advantage of Stakeholder Intelligence</h2>
+
+<p>Winning complex B2B sales is less about the perfect pitch and more about strategic relationship management. By combining detailed <strong>sales org charts</strong> with dynamic <strong>stakeholder mapping</strong>, your team can confidently navigate the buying committee, overcome obstacles, and accelerate deal velocity.</p>
+
+<p>Master the modern buying committee—turn every relationship into a potential win.</p>
+
+<hr />
+
+<p><strong>Ready to up your B2B sales game? Start building your sales org chart and stakeholder map today!</strong></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="buying committee" /><category term="sales org chart" /><category term="stakeholder mapping" /><summary type="html"><![CDATA[In today's B2B sales landscape, winning a deal rarely hinges on convincing a single decision-maker. Instead, understanding and influencing the intricate buy...]]></summary></entry><entry><title type="html">Master Account Mapping in HubSpot: How to Build Org Charts for Better Sales Alignment</title><link href="http://localhost:4000/blog/account-mapping-HubSpot-org-charts/" rel="alternate" type="text/html" title="Master Account Mapping in HubSpot: How to Build Org Charts for Better Sales Alignment" /><published>2026-05-04T20:17:27+01:00</published><updated>2026-05-04T20:17:27+01:00</updated><id>http://localhost:4000/blog/account-mapping-HubSpot-org-charts</id><content type="html" xml:base="http://localhost:4000/blog/account-mapping-HubSpot-org-charts/"><![CDATA[<h1 id="master-account-mapping-in-hubspot-how-to-build-org-charts-for-better-sales-alignment">Master Account Mapping in HubSpot: How to Build Org Charts for Better Sales Alignment</h1>
+
+<p>Account mapping is a game-changer for sales teams aiming to win complex B2B deals. By visualizing key contacts, decision-makers, and influencers, sales reps can strategize more effectively and close deals faster. One of the most powerful ways to organize your account mapping efforts is by using org charts within your CRM. In this guide, we’ll show you step-by-step how to build account maps in HubSpot using org charts—so you’ll always know who matters most in every deal.</p>
+
+<h2 id="why-account-mapping-matters-in-hubspot">Why Account Mapping Matters in HubSpot</h2>
+
+<p>Account mapping isn’t just a buzzword—it’s a proven sales tactic that gives you an edge in high-stakes deals. Leveraging account mapping in HubSpot allows your team to:</p>
+
+<ul>
+  <li><strong>Identify key stakeholders and their roles</strong></li>
+  <li><strong>Spot relationship gaps in complex organizations</strong></li>
+  <li><strong>Pinpoint the fastest path to a “yes”</strong></li>
+  <li><strong>Collaborate more effectively with your sales team</strong></li>
+</ul>
+
+<p>By integrating org charts into your HubSpot workflow, you visualize these relationships, making it easier to navigate organizational structures.</p>
+
+<h2 id="what-is-account-mapping">What is Account Mapping?</h2>
+
+<p>Account mapping is the process of visually organizing contacts within a target company to understand their roles, responsibilities, and influence over purchasing decisions. An org chart (organizational chart) is a visual tool that helps you map these relationships—making abstract sales data actionable for your team.</p>
+
+<h2 id="how-to-build-account-maps-in-hubspot-using-org-charts">How to Build Account Maps in HubSpot Using Org Charts</h2>
+
+<p>Ready to get started? Follow these actionable steps:</p>
+
+<h3 id="1-prepare-your-hubspot-data">1. Prepare Your HubSpot Data</h3>
+
+<p>Before mapping out accounts, ensure your contact and company records in HubSpot are clean and up-to-date. Import any missing contacts, and ensure every key stakeholder has a complete profile with job title, department, and contact info.</p>
+
+<h3 id="2-identify-key-stakeholders">2. Identify Key Stakeholders</h3>
+
+<p>Within the target account, use HubSpot’s properties and filters to segment contacts by:</p>
+
+<ul>
+  <li>Decision-maker</li>
+  <li>Influencer</li>
+  <li>Champion</li>
+  <li>Blocker</li>
+</ul>
+
+<p>Tip: Customize HubSpot contact properties or create custom fields if your sales process requires additional segmentation.</p>
+
+<h3 id="3-choose-your-org-chart-tool">3. Choose Your Org Chart Tool</h3>
+
+<p>HubSpot doesn’t offer native org chart functionality. But you have several integration options:</p>
+
+<ul>
+  <li><strong>Third-party apps:</strong> Solutions like Lucidchart, OrgChartHub, and Smaply offer plug-and-play integration with HubSpot. These apps pull contact data from HubSpot and let you drag-and-drop contacts into your org charts.</li>
+  <li><strong>Manual approach:</strong> Export contact lists from HubSpot and build org charts using Google Drawings, Microsoft Visio, or Miro. Upload or link the finished diagrams to the relevant HubSpot company record.</li>
+</ul>
+
+<h4 id="pro-tip">Pro Tip:</h4>
+<p>OrgChartHub is a popular choice and offers direct integration—making it seamless to view and update org charts from within HubSpot.</p>
+
+<h3 id="4-build-the-org-chart">4. Build the Org Chart</h3>
+
+<p>Once your tooling is ready:</p>
+
+<ul>
+  <li>Start with the top decision-maker or C-level executive.</li>
+  <li>Add direct reports and relevant stakeholders below them.</li>
+  <li>Connect individuals to show reporting and influence lines.</li>
+  <li>Annotate contacts with useful insights, such as decision status, last engagement, or personal notes.</li>
+</ul>
+
+<h3 id="5-collaborate-and-keep-it-updated">5. Collaborate and Keep It Updated</h3>
+
+<p>Share your account maps with your sales and customer success teams. In HubSpot, use deals, notes, or tasks to highlight strategic moves or request help with introductions. Make it a habit to update the org chart after every major development or meeting.</p>
+
+<h3 id="6-leverage-account-maps-in-your-sales-process">6. Leverage Account Maps in Your Sales Process</h3>
+
+<ul>
+  <li>Reference the org chart before every call or meeting.</li>
+  <li>Use it to plan outreach, orchestrate multi-threaded communication, and avoid single-thread risk.</li>
+  <li>Track relationship progress and identify new champions or blockers.</li>
+</ul>
+
+<h2 id="best-practices-for-account-mapping-with-hubspot-org-charts">Best Practices for Account Mapping with HubSpot Org Charts</h2>
+
+<ul>
+  <li><strong>Stay proactive:</strong> Update your maps regularly, especially after significant organizational changes.</li>
+  <li><strong>Centralize knowledge:</strong> Attach org charts directly to HubSpot company or deal records for easy team access.</li>
+  <li><strong>Prioritize privacy:</strong> Ensure mapped data complies with GDPR and company privacy policies.</li>
+  <li><strong>Integrate insights:</strong> Use workflows or automation to trigger alerts when influential roles change.</li>
+</ul>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>Building account maps in HubSpot using org charts transforms static contact lists into dynamic, actionable sales plans. With the right integration and best practices, your team will gain deeper insights into customer organizations, shorten sales cycles, and drive more revenue.</p>
+
+<p>Start implementing account mapping in your HubSpot instance today—and watch your deal win rates rise!</p>
+
+<hr />
+
+<p><strong>Want to build powerful account maps that fuel sales growth?</strong><br />
+Explore HubSpot’s app marketplace for org chart integrations and boost your team’s sales intelligence overnight!</p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="account mapping" /><category term="HubSpot" /><category term="org charts" /><summary type="html"><![CDATA[Account mapping is a game-changer for sales teams aiming to win complex B2B deals. By visualizing key contacts, decision-makers, and influencers, sales reps...]]></summary></entry><entry><title type="html">The Critical Role of Visual Org Charts in HubSpot for Complex B2B Sales</title><link href="http://localhost:4000/blog/HubSpot-org-charts-visual-complex-B2B-sales/" rel="alternate" type="text/html" title="The Critical Role of Visual Org Charts in HubSpot for Complex B2B Sales" /><published>2026-05-04T20:14:55+01:00</published><updated>2026-05-04T20:14:55+01:00</updated><id>http://localhost:4000/blog/HubSpot-org-charts-visual-complex-B2B-sales</id><content type="html" xml:base="http://localhost:4000/blog/HubSpot-org-charts-visual-complex-B2B-sales/"><![CDATA[<h1 id="the-critical-role-of-visual-org-charts-in-hubspot-for-complex-b2b-sales">The Critical Role of Visual Org Charts in HubSpot for Complex B2B Sales</h1>
+
+<p>Sales teams using HubSpot know that closing complex B2B deals often depends on understanding the organizational structure of your prospect. This is where HubSpot org charts and visual org charts become game-changers for efficient and effective sales strategies.</p>
+
+<h2 id="why-visual-org-charts-are-essential-in-complex-b2b-sales">Why Visual Org Charts Are Essential in Complex B2B Sales</h2>
+
+<h3 id="1-mapping-multiple-stakeholders">1. Mapping Multiple Stakeholders</h3>
+
+<p>Complex B2B sales rarely involve a single decision-maker. Deals can hinge on the buy-in from executives, technical evaluators, finance, or procurement. Visual org charts in HubSpot give sales reps the ability to:</p>
+
+<ul>
+  <li>Identify key influencers at a glance</li>
+  <li>Track reporting relationships across departments</li>
+  <li>Clarify who has authority or veto power</li>
+</ul>
+
+<h3 id="2-speeding-up-the-sales-process">2. Speeding Up the Sales Process</h3>
+
+<p>When sales reps have access to up-to-date HubSpot org charts, they can:</p>
+
+<ul>
+  <li>Quickly pinpoint the right contacts</li>
+  <li>Reduce time wasted on unqualified leads</li>
+  <li>Streamline communication by targeting the appropriate stakeholders</li>
+</ul>
+
+<p>This efficiency translates to shorter sales cycles and higher win rates.</p>
+
+<h3 id="3-navigating-internal-politics">3. Navigating Internal Politics</h3>
+
+<p>Large buying groups often mean hidden influencers and complex politics. Visual org charts help salespeople understand:</p>
+
+<ul>
+  <li>The internal dynamics of a prospect’s organization</li>
+  <li>How decisions are really made</li>
+  <li>Potential champions or blockers within the account</li>
+</ul>
+
+<p>With this clarity, reps can tailor their conversations and proposals to resonate with both decision-makers and behind-the-scenes players.</p>
+
+<h3 id="4-improving-collaboration-across-sales-teams">4. Improving Collaboration Across Sales Teams</h3>
+
+<p>Sales teams often include account executives, sales engineers, and managers who need to coordinate efforts. Centralized HubSpot org charts allow everyone on the team to:</p>
+
+<ul>
+  <li>Stay aligned on account strategy</li>
+  <li>Share insights easily</li>
+  <li>Avoid redundant outreach or miscommunication</li>
+</ul>
+
+<h2 id="how-hubspot-org-charts-empower-b2b-sales-teams">How HubSpot Org Charts Empower B2B Sales Teams</h2>
+
+<p>HubSpot’s native CRM capabilities help track contacts and their details, but integrating robust visual org charts elevates account management. With the right integration or add-on, sales teams can:</p>
+
+<ul>
+  <li>Visualize account hierarchies directly within HubSpot</li>
+  <li>Update org charts in real-time as team changes occur</li>
+  <li>Annotate relationships and key insights for future reference</li>
+</ul>
+
+<h2 id="matching-search-intent-do-you-need-visual-org-charts-in-hubspot">Matching Search Intent: Do You Need Visual Org Charts in HubSpot?</h2>
+
+<p>If you’re searching for <a href="#">HubSpot org charts</a> or ways to manage <a href="#">complex B2B sales</a>, this post is your guide. Sales leaders and operations managers looking to improve win rates and efficiency should consider visualizing organizational structures within their CRM.</p>
+
+<h2 id="conclusion-visual-org-charts-are-no-longer-optional-for-complex-sales">Conclusion: Visual Org Charts Are No Longer Optional for Complex Sales</h2>
+
+<p>The days of simple sales processes are gone. Today’s B2B sales demand a 360-degree view of every account. Integrating visual org charts into HubSpot equips your team to navigate complexity with confidence, resulting in stronger relationships, faster deals, and consistent revenue growth.</p>
+
+<p><strong>Invest in visual org charts for HubSpot—your complex B2B sales success depends on it.</strong></p>
+
+<hr />
+
+<p><em>Ready to take your sales process to the next level? Explore org chart tools available for HubSpot to supercharge your sales team today.</em></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="HubSpot org charts" /><category term="visual org charts" /><category term="complex B2B sales" /><summary type="html"><![CDATA[Sales teams using HubSpot know that closing complex B2B deals often depends on understanding the organizational structure of your prospect. This is where Hu...]]></summary></entry><entry><title type="html">OrgChart HubSpot Setup and Usage Guide</title><link href="http://localhost:4000/blog/setup-guide/" rel="alternate" type="text/html" title="OrgChart HubSpot Setup and Usage Guide" /><published>2023-01-01T15:54:38+00:00</published><updated>2023-01-01T15:54:38+00:00</updated><id>http://localhost:4000/blog/setup-guide</id><content type="html" xml:base="http://localhost:4000/blog/setup-guide/"><![CDATA[<div id="accordionExample" class="accordion">
+<div class="accordion-item">
+
+<h3 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstalling" aria-expanded="true" aria-controls="collapseInstalling"><span id="start" class="pt-6-m">Getting Started</span>
+</button></h3>
+
+<div class="accordion-collapse collapse show" id="collapseInstalling" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+
+<h4 class="pt-6-m mb-3 text-primary" id="connect-your-hubspot-account">1. Connect Your HubSpot Account</h4>
+
+<p>Click <strong>Install app</strong> to connect OrgChart to your HubSpot account.</p>
+
+<p><strong>Important:</strong> OrgChart is installed at the HubSpot account level. Once an admin installs the app, the account authorization can be used by the rest of the users in that HubSpot account. Individual users may still need access to the app cards in their HubSpot views.</p>
+
+<p class="text-center"><a href="https://app.orgchart.work/install" target="_blank" class="btn btn--primary">Install OrgChart</a></p>
+
+<p><strong>Image needed:</strong> Screenshot of the OrgChart install button or HubSpot Marketplace install screen.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="login-to-hubspot">2. Login and Choose the HubSpot Account</h4>
+
+<p>Use your normal HubSpot login. If you have access to multiple HubSpot accounts, choose the account where OrgChart should be installed.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the HubSpot account selection screen during OAuth installation.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="approve-permissions">3. Approve Permissions</h4>
+
+<p>Approve the requested HubSpot permissions and click <strong>Connect app</strong>. OrgChart needs access to deals, companies, and contacts so it can show cards, read associated CRM records, create manual contacts inside OrgChart, and generate organization charts from deal context.</p>
+
+<p>The first user who installs OrgChart for a HubSpot account becomes an OrgChart admin by default. Additional admins can be managed later from OrgChart settings.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the HubSpot OAuth permission approval screen for OrgChart.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="add-cards">4. Add OrgChart Cards to HubSpot Views</h4>
+
+<p>After installation, HubSpot admins can add OrgChart cards to Deal, Company, and Contact record pages.</p>
+
+<p>Go to <strong>HubSpot Settings &gt; Connected Apps &gt; OrgChart &gt; App cards &gt; Manage locations</strong>. Add the cards to the views your team uses.</p>
+
+<p>Users can also add cards from a CRM record by clicking <strong>Customize</strong>, selecting the record view, and adding OrgChart cards from the App card library.</p>
+
+<p><strong>HubSpot permission required:</strong> users need <strong>Customize record page layout</strong> permissions or <strong>Super Admin</strong> permissions to add app cards to a record layout.</p>
+
+<p><strong>Image needed:</strong> Screenshot of HubSpot Connected Apps &gt; OrgChart &gt; App cards &gt; Manage locations.</p>
+<p><strong>Image needed:</strong> Screenshot of adding an OrgChart card from the HubSpot card library.</p>
+
+<p>The available cards are:</p>
+
+<ul>
+  <li><strong>Deal Org Chart</strong>: available as a middle tab card and right sidebar card.</li>
+  <li><strong>Company OrgCharts</strong>: available as a middle tab card and right sidebar card.</li>
+  <li><strong>Contact OrgCharts</strong>: available as a middle tab card and right sidebar card.</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+
+<h3 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUsing" aria-expanded="true" aria-controls="collapseUsing"><span id="using" class="pt-6-m">Using OrgChart</span>
+</button></h3>
+
+<div class="accordion-collapse collapse" id="collapseUsing" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+
+<h4 class="pt-6-m mb-3 text-primary" id="deal-cards">5. Deal Cards</h4>
+
+<p>The deal card is the main place to create and work with an org chart. The card shows a preview image of the current organization chart for the deal. Click the preview image or <strong>Open editor</strong> to open the editor.</p>
+
+<p>If the deal has no associated company, OrgChart cannot create a company-level org chart yet. In that case, the card shows an action to associate a company with the deal first.</p>
+
+<p>If the company has multiple org charts, use the selector on the card to choose which chart should be shown for that deal.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Deal Org Chart card with a preview image, chart selector, usage text, and Open editor button.</p>
+<p><strong>Image needed:</strong> Screenshot of the no-associated-company state with the action to associate a company.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="company-cards">6. Company Cards</h4>
+
+<p>The company card lists all org charts associated with that company. Each chart shows:</p>
+
+<ul>
+  <li>The org chart preview image.</li>
+  <li>The org chart name.</li>
+  <li>The deals associated with that chart.</li>
+  <li>An action to open the editor through an associated deal.</li>
+</ul>
+
+<p>Company-level charts are shared across deals for the same company. This means one chart can be reused by multiple deals when the sales team is mapping the same account.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Company OrgCharts card showing multiple charts and their associated deals.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="contact-cards">7. Contact Cards</h4>
+
+<p>The contact card shows org charts from the contact's associated companies. This helps reps understand where a contact appears in the account map without leaving the contact record.</p>
+
+<p>For each chart, the card shows the company, associated deals, preview image, and an <strong>Open editor</strong> action when there is an associated deal available.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Contact OrgCharts card showing one or more org charts related to the contact.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="editor">8. The Org Chart Editor</h4>
+
+<p>The editor is where you create, organize, and maintain org charts. It opens in a HubSpot modal from the deal, company, or contact cards.</p>
+
+<p>The editor has two main areas:</p>
+
+<ul>
+  <li><strong>Contact list:</strong> shows HubSpot contacts and manual contacts available for the company.</li>
+  <li><strong>Chart preview:</strong> shows the current reporting structure and buying roles.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Full editor screenshot showing the contact list on the left/top and the org chart preview.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="create-chart">8.1 Create or Select an Org Chart</h5>
+
+<ul>
+  <li>Create a new org chart from the editor when a company does not have one yet.</li>
+  <li>Select an existing org chart when the company has multiple maps.</li>
+  <li>Org chart names are limited to 40 characters.</li>
+  <li>Changing the name, reporting structure, or buying roles regenerates the preview image used in HubSpot cards.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Screenshot of the org chart selector and org chart name edit field.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="reporting-structure">8.2 Define the Reporting Structure</h5>
+
+<p>For each contact, select who they report to. Choose <strong>No One (Top Level)</strong> for top-level stakeholders and <strong>Not in org chart</strong> for contacts that should remain in the company contact list but not appear in the current chart.</p>
+
+<p>You can also click <strong>Organize</strong> and drag one person onto another to create a reporting relationship visually. Click <strong>Done</strong> when finished.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the reporting selector in the contact list.</p>
+<p><strong>Image needed:</strong> Screenshot or short GIF of drag-and-drop organize mode.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="buying-roles">8.3 Assign Buying Roles</h5>
+
+<p>Buying roles identify how each person influences the deal. The default roles are:</p>
+
+<ul>
+  <li>💰 Economic buyer</li>
+  <li>⭐ Champion</li>
+  <li>🛠️ Technical buyer</li>
+  <li>👤 User</li>
+  <li>🛒 Procurement</li>
+  <li>⛔ Blocker</li>
+  <li>📣 Influencer</li>
+  <li>⚖️ Legal</li>
+</ul>
+
+<p>Admins can customize these buying roles in <strong>Settings &gt; General &gt; Buying Roles</strong>. Custom roles are account-wide and are used in the editor, preview images, and AI generation.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the buying role selector for a contact.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="manual-contacts">8.4 Add Manual Contacts</h5>
+
+<p>You can add contacts that are relevant to the account map even if they are not HubSpot contacts yet. Manual contacts are stored in OrgChart at the company level, so they are available in other org charts and deals for the same company.</p>
+
+<p>Manual contacts show a trash icon in the contact list and can be deleted from OrgChart. HubSpot contacts show the HubSpot icon and are not deleted from HubSpot by OrgChart.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Add contact form in the editor.</p>
+<p><strong>Image needed:</strong> Screenshot showing the HubSpot icon for synced contacts and trash icon for manual contacts.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="preview-images">8.5 Preview Images in HubSpot Cards</h5>
+
+<p>OrgChart renders a preview image for each org chart so it can be displayed directly inside HubSpot cards. HubSpot does not allow iframes inside cards, so the editor is opened only when the user clicks the image or button.</p>
+
+<p>Preview images are regenerated when the chart is saved, when reporting relationships change, when buying roles change, when the org chart name changes, and when AI generates or updates a chart.</p>
+
+<p><strong>Image needed:</strong> Before/after screenshot showing an editor change and the updated card preview.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="ai-generation">9. Generate Org Charts with AI</h4>
+
+<p>OrgChart can generate a suggested org chart from the deal record, associated contacts, associated company, buying roles, titles, and recent engagements recorded in HubSpot.</p>
+
+<p>Click <strong>✨ Generate AI</strong> in the editor. While the process runs, the button shows a generating state. When the chart is created, it is marked with the note <strong>✨ Generated with AI. Check for mistakes.</strong> in the editor and preview image.</p>
+
+<p>AI may also identify people mentioned in engagements who are not yet HubSpot contacts. If enabled in settings, OrgChart can create them as manual contacts so they can be included in the chart.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Generate AI button before clicking.</p>
+<p><strong>Image needed:</strong> Screenshot of the generating state.</p>
+<p><strong>Image needed:</strong> Screenshot of an AI-generated org chart with the AI warning text at the bottom.</p>
+
+<p><strong>Important:</strong> AI-generated org charts are suggestions. Review reporting lines, missing contacts, and buying roles before using the chart in a sales process.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="home-page">13. OrgChart Home Page</h4>
+
+<p>The OrgChart home page lists org charts created in the account. It is useful for admins and managers who want to review account maps without opening each HubSpot deal.</p>
+
+<p>From the home page, users can:</p>
+
+<ul>
+  <li>View paginated org charts.</li>
+  <li>Open the editor for a selected chart.</li>
+  <li>Download the preview image.</li>
+  <li>Delete an org chart.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Screenshot of the OrgChart home page list with Open, Download, and Delete actions.</p>
+
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+
+<h3 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSettings" aria-expanded="true" aria-controls="collapseSettings"><span id="settings" class="pt-6-m">Settings and Administration</span>
+</button></h3>
+
+<div class="accordion-collapse collapse" id="collapseSettings" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+
+<h4 class="pt-6-m mb-3 text-primary" id="settings-overview">10. Settings Overview</h4>
+
+<p>Only OrgChart admins can manage account settings. Settings are available from the HubSpot app settings page and from OrgChart cards when the user has access.</p>
+
+<p>The main settings areas are:</p>
+
+<ul>
+  <li><strong>General:</strong> user access, AI provider, automation, subscription, account deletion, and buying roles.</li>
+  <li><strong>Users:</strong> user plan and admin management.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Screenshot of the OrgChart settings page with the General and Users tabs.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="settings-general">11. General Settings</h4>
+
+<h5 class="pt-6-m mb-3 text-primary" id="user-access">11.1 User Access</h5>
+
+<ul>
+  <li><strong>Allow manual contacts:</strong> lets users add non-HubSpot contacts to company org charts.</li>
+  <li><strong>Allow AI-created contacts:</strong> lets AI generation create manual contacts when a person appears in engagement evidence but is not already a contact.</li>
+</ul>
+
+<h5 class="pt-6-m mb-3 text-primary" id="ai-provider">11.2 AI LLM Provider</h5>
+
+<p>Admins can enable or disable AI features and choose the AI provider used to generate org charts. The AI workflow uses available deal information, contacts, company context, and engagement records.</p>
+
+<p>If Azure OpenAI is selected, provide the Azure resource name or base URL and API key. API keys are stored encrypted.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the AI LLM Provider settings box.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="deal-properties">11.3 Deal Properties and Engagement Lookback</h5>
+
+<p>Admins can control how many days of engagements AI should consider and whether to include all deal properties or only selected deal properties. This is useful when your HubSpot account has many custom properties that are not relevant to account mapping.</p>
+
+<p><strong>Image needed:</strong> Screenshot of engagement lookback and included deal properties settings.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="automations">11.4 Automations</h5>
+
+<p>Automations are enabled by default. Depending on settings, OrgChart can:</p>
+
+<ul>
+  <li>Generate an org chart automatically when a deal is first loaded and no chart exists yet.</li>
+  <li>Create org charts for new deals.</li>
+  <li>Create org charts when a company is associated with a deal.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Screenshot of the Automations settings box.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="buying-roles-settings">11.5 Buying Roles</h5>
+
+<p>Buying roles are account-wide. Admins can edit the icon, label, and value for each role, add new roles, remove unused roles, or restore the defaults.</p>
+
+<p>Changing buying roles affects the editor, AI generation, and future preview image generation. Existing contacts that already have a removed role may need to be updated manually.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Buying Roles settings box at the bottom of the General tab.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="subscription">11.6 Manage Subscription</h5>
+
+<p>Free accounts can create up to five free org charts. OrgChart lets free users create a sixth chart, then shows the paywall and requires an upgrade before more charts can be created.</p>
+
+<p>Admins can upgrade to an individual plan or team plan from the card paywall or from Settings. Paid admins can open the Stripe customer portal from Settings to manage billing.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the paywall showing the one-user and team plans.</p>
+<p><strong>Image needed:</strong> Screenshot of the Settings subscription box with Manage subscription.</p>
+
+<h5 class="pt-6-m mb-3 text-primary" id="delete-account">11.7 Delete Account</h5>
+
+<p>Deleting an account permanently removes OrgChart data stored by the app, including users, deals, companies, contacts, org charts, preview images, and local billing records. It does not delete your HubSpot account.</p>
+
+<p>Cancel paid subscriptions before deleting the account.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Delete Account confirmation field.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="users-settings">12. User Management</h4>
+
+<p>The Users tab lets admins manage OrgChart users for the account.</p>
+
+<ul>
+  <li><strong>Plan:</strong> change a user between free, premium, unregistered, or deleted states.</li>
+  <li><strong>Admin:</strong> make a user an OrgChart admin or remove admin access.</li>
+  <li><strong>Remove:</strong> remove a non-admin user from the OrgChart account.</li>
+</ul>
+
+<p>Changing a user's plan does not cancel or change the Stripe subscription by itself. Billing must be managed from the customer portal.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Users settings table.</p>
+
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+
+<h3 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTroubleshooting" aria-expanded="true" aria-controls="collapseTroubleshooting"><span id="troubleshooting" class="pt-6-m">Troubleshooting</span>
+</button></h3>
+
+<div class="accordion-collapse collapse" id="collapseTroubleshooting" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+
+<h4 class="pt-6-m mb-3 text-primary" id="cannot-install-app">14. I Cannot Install the App</h4>
+
+<p>You may not have permission to install apps in HubSpot. Ask a HubSpot Super Admin to install OrgChart or grant you permission to install marketplace apps.</p>
+
+<p><strong>Image needed:</strong> Screenshot of HubSpot app installation permission error, if available.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="cannot-add-cards">15. I Cannot Add Cards to My View</h4>
+
+<p>You need <strong>Customize record page layout</strong> permissions or <strong>Super Admin</strong> permissions in HubSpot to add cards to record views.</p>
+
+<p>If you can see OrgChart in Connected Apps but cannot add cards, ask a HubSpot admin to add the cards to the shared record layout.</p>
+
+<p><strong>Image needed:</strong> Screenshot of HubSpot record customization permissions or card library.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="reauthorize">16. The Card Says OrgChart Must Be Reauthorized</h4>
+
+<p>If the HubSpot token expires, is revoked, or required scopes change, OrgChart will show a reauthorization message on the card. Click the install or reauthorize action and approve the permissions again.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the card reauthorization state.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="no-company">17. The Editor Does Not Open for a Deal</h4>
+
+<p>Org charts are company-based. If a deal has no associated company, OrgChart cannot create or open the editor. Associate a company with the deal first, then refresh the card.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the deal card state that asks the user to associate a company.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="preview-not-updating">18. The Preview Image Is Not Updating</h4>
+
+<p>Preview images are regenerated when changes are saved. If the HubSpot card still shows an older image, close the editor and refresh the card or record. The card appends a refresh token to preview image URLs to avoid stale cached images.</p>
+
+<p>If the issue continues, open the editor, make a small change, and save again to force regeneration.</p>
+
+<p><strong>Image needed:</strong> Screenshot showing an updated editor chart and refreshed card preview.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="ai-error">19. AI Generation Fails</h4>
+
+<p>AI generation can fail if AI is disabled in settings, the selected provider is not configured, the deal has no contacts, or HubSpot engagement data cannot be read. The editor shows an error message when generation fails.</p>
+
+<p>Check:</p>
+
+<ul>
+  <li>The account has AI enabled.</li>
+  <li>The selected LLM provider is configured.</li>
+  <li>The deal has an associated company and contacts.</li>
+  <li>The app is still authorized in HubSpot.</li>
+</ul>
+
+<p><strong>Image needed:</strong> Screenshot of a friendly AI generation error message in the editor.</p>
+
+<hr />
+
+<h4 class="pt-6-m mb-3 text-primary" id="billing">20. Billing or Subscription Issues</h4>
+
+<p>Admins can manage billing from <strong>Settings &gt; General &gt; Manage Your Subscription</strong>. The customer portal opens in a new tab because Stripe blocks the portal inside some embedded contexts.</p>
+
+<p>If the portal cannot find your subscription, contact support with the HubSpot account name and the email used for purchase.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the Manage subscription button opening the Stripe customer portal in a new tab.</p>
+
+</div>
+</div>
+</div>
+</div>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="setup guide" /><category term="HubSpot" /><category term="org charts" /><summary type="html"><![CDATA[Guide for installing, configuring, and using OrgChart in HubSpot]]></summary></entry></feed>

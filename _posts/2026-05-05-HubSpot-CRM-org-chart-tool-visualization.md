@@ -8,11 +8,11 @@ tags:
   - CRM visualization
 classes: wide
 date: 2026-05-05 16:19:36 +0100
-excerpt: As more businesses depend on HubSpot CRM to centralize customer data, many users quickly discover a significant limitation: the lack of an org chart tool fo...
+excerpt: As more businesses depend on HubSpot CRM to centralize customer data, many users quickly discover a significant limitation the lack of an org chart tool fo...
 header:
   overlay_image: /assets/images/posts/2026-05-05_164.webp
   teaser: /assets/images/posts/2026-05-05_164.webp
-  caption: 
+  caption:
 ---
 
 # Unlocking the Potential: The Missing Org Chart Layer in HubSpot CRM
