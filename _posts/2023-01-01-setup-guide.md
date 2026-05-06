@@ -217,7 +217,7 @@ header:
 
 <hr>
 
-<h4 class="pt-6-m mb-3 text-primary" id="home-page">13. OrgChart Home Page</h4>
+<h4 class="pt-6-m mb-3 text-primary" id="home-page">10. OrgChart Home Page</h4>
 
 <p>The OrgChart home page lists org charts created in the account. It is useful for admins and managers who want to review account maps without opening each HubSpot deal.</p>
 
@@ -245,7 +245,7 @@ header:
 <div class="accordion-collapse collapse" id="collapseSettings" data-bs-parent="#accordionExample">
 <div class="accordion-body">
 
-<h4 class="pt-6-m mb-3 text-primary" id="settings-overview">10. Settings Overview</h4>
+<h4 class="pt-6-m mb-3 text-primary" id="settings-overview">11. Settings Overview</h4>
 
 <p>Only OrgChart admins can manage account settings. Settings are available from the HubSpot app settings page and from OrgChart cards when the user has access.</p>
 
@@ -260,16 +260,16 @@ header:
 
 <hr>
 
-<h4 class="pt-6-m mb-3 text-primary" id="settings-general">11. General Settings</h4>
+<h4 class="pt-6-m mb-3 text-primary" id="settings-general">12. General Settings</h4>
 
-<h5 class="pt-6-m mb-3 text-primary" id="user-access">11.1 User Access</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="user-access">12.1 User Access</h5>
 
 <ul>
   <li><strong>Allow manual contacts:</strong> lets users add non-HubSpot contacts to company org charts.</li>
   <li><strong>Allow AI-created contacts:</strong> lets AI generation create manual contacts when a person appears in engagement evidence but is not already a contact.</li>
 </ul>
 
-<h5 class="pt-6-m mb-3 text-primary" id="ai-provider">11.2 AI LLM Provider</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="ai-provider">12.2 AI LLM Provider</h5>
 
 <p>Admins can enable or disable AI features and choose the AI provider used to generate org charts. The AI workflow uses available deal information, contacts, company context, and engagement records.</p>
 
@@ -277,13 +277,13 @@ header:
 
 <p><strong>Image needed:</strong> Screenshot of the AI LLM Provider settings box.</p>
 
-<h5 class="pt-6-m mb-3 text-primary" id="deal-properties">11.3 Deal Properties and Engagement Lookback</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="deal-properties">12.3 Deal Properties and Engagement Lookback</h5>
 
 <p>Admins can control how many days of engagements AI should consider and whether to include all deal properties or only selected deal properties. This is useful when your HubSpot account has many custom properties that are not relevant to account mapping.</p>
 
 <p><strong>Image needed:</strong> Screenshot of engagement lookback and included deal properties settings.</p>
 
-<h5 class="pt-6-m mb-3 text-primary" id="automations">11.4 Automations</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="automations">12.4 Automations</h5>
 
 <p>Automations are enabled by default. Depending on settings, OrgChart can:</p>
 
@@ -295,7 +295,7 @@ header:
 
 <p><strong>Image needed:</strong> Screenshot of the Automations settings box.</p>
 
-<h5 class="pt-6-m mb-3 text-primary" id="buying-roles-settings">11.5 Buying Roles</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="buying-roles-settings">12.5 Buying Roles</h5>
 
 <p>Buying roles are account-wide. Admins can edit the icon, label, and value for each role, add new roles, remove unused roles, or restore the defaults.</p>
 
@@ -303,7 +303,7 @@ header:
 
 <p><strong>Image needed:</strong> Screenshot of the Buying Roles settings box at the bottom of the General tab.</p>
 
-<h5 class="pt-6-m mb-3 text-primary" id="subscription">11.6 Manage Subscription</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="subscription">12.6 Manage Subscription</h5>
 
 <p>Free accounts can create up to five free org charts. OrgChart lets free users create a sixth chart, then shows the paywall and requires an upgrade before more charts can be created.</p>
 
@@ -312,7 +312,7 @@ header:
 <p><strong>Image needed:</strong> Screenshot of the paywall showing the one-user and team plans.</p>
 <p><strong>Image needed:</strong> Screenshot of the Settings subscription box with Manage subscription.</p>
 
-<h5 class="pt-6-m mb-3 text-primary" id="delete-account">11.7 Delete Account</h5>
+<h5 class="pt-6-m mb-3 text-primary" id="delete-account">12.7 Delete Account</h5>
 
 <p>Deleting an account permanently removes OrgChart data stored by the app, including users, deals, companies, contacts, org charts, preview images, and local billing records. It does not delete your HubSpot account.</p>
 
@@ -322,7 +322,7 @@ header:
 
 <hr>
 
-<h4 class="pt-6-m mb-3 text-primary" id="users-settings">12. User Management</h4>
+<h4 class="pt-6-m mb-3 text-primary" id="users-settings">13. User Management</h4>
 
 <p>The Users tab lets admins manage OrgChart users for the account.</p>
 
