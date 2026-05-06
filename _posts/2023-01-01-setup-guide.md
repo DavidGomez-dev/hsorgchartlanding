@@ -410,7 +410,21 @@ header:
 
 <hr>
 
-<h4 class="pt-6-m mb-3 text-primary" id="billing">20. Billing or Subscription Issues</h4>
+<h4 class="pt-6-m mb-3 text-primary" id="ai-email-access">20. AI Autofill Is Not Taking Information from My Emails</h4>
+
+<p>To enable AI Autofill from email activity, you may need to reauthorize the app so OrgChart can use the newer permissions required to read email engagement data.</p>
+
+<p class="text-center"><a href="https://app.orgchart.work/install" target="_blank" class="btn btn--primary">Install</a></p>
+
+<p>In all cases, the information extracted from emails is limited to the initial portion of each email. This helps avoid processing repetitive long threads, legal disclaimers, and other non-essential content.</p>
+
+<p>If critical deal information is buried deep within email threads or other engagements, AI might not capture or interpret it accurately. AI can also hallucinate, so always check important facts before relying on the generated org chart.</p>
+
+<p><strong>Image needed:</strong> Screenshot of the reauthorization prompt or install page used to approve email engagement permissions.</p>
+
+<hr>
+
+<h4 class="pt-6-m mb-3 text-primary" id="billing">21. Billing or Subscription Issues</h4>
 
 <p>Admins can manage billing from <strong>Settings > General > Manage Your Subscription</strong>. The customer portal opens in a new tab because Stripe blocks the portal inside some embedded contexts.</p>
 
