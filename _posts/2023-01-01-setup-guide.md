@@ -32,9 +32,14 @@ header:
 
 <p><strong>Important:</strong> OrgChart is installed at the HubSpot account level. Once an admin installs the app, the account authorization can be used by the rest of the users in that HubSpot account. Individual users may still need access to the app cards in their HubSpot views.</p>
 
-<p class="text-center"><a href="https://app.orgchart.work/install" target="_blank" class="btn btn--primary">Install OrgChart</a></p>
+<a class="d-flex align-items-center gap-2 btn bg-black text-white px-4 py-2 me-3 w-25" href="https://app.orgchart.work/install">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M10.1704 10.0886C9.08591 10.0886 8.20682 9.24967 8.20682 8.21499C8.20682 7.18014 9.08591 6.34125 10.1704 6.34125C11.2548 6.34125 12.1339 7.18014 12.1339 8.21499C12.1339 9.24967 11.2548 10.0886 10.1704 10.0886ZM10.7581 4.60775V2.94095C11.2141 2.73545 11.5334 2.29534 11.5334 1.78456V1.74609C11.5334 1.04115 10.929 0.46439 10.1903 0.46439H10.1501C9.41142 0.46439 8.80706 1.04115 8.80706 1.74609V1.78456C8.80706 2.29534 9.12637 2.73564 9.58234 2.94113V4.60775C8.90354 4.70789 8.28331 4.97506 7.7718 5.36825L2.97601 1.8083C3.00766 1.69233 3.02989 1.57295 3.03008 1.44746C3.03084 0.649214 2.35371 0.00108006 1.51684 9.346e-07C0.680322 -0.000897062 0.000943832 0.645439 9.79483e-07 1.44386C-0.000939964 2.2423 0.67618 2.89043 1.51307 2.89133C1.78568 2.89169 2.03814 2.8178 2.25932 2.69769L6.97674 6.19976C6.57563 6.77759 6.34051 7.46977 6.34051 8.21499C6.34051 8.99508 6.5988 9.71679 7.03515 10.3102L5.60065 11.6793C5.48723 11.6467 5.36967 11.6241 5.24494 11.6241C4.55746 11.6241 3.99998 12.1559 3.99998 12.8119C3.99998 13.4682 4.55746 14 5.24494 14C5.93261 14 6.4899 13.4682 6.4899 12.8119C6.4899 12.6933 6.46617 12.5809 6.43206 12.4727L7.85111 11.1185C8.49527 11.5876 9.29748 11.8695 10.1704 11.8695C12.2856 11.8695 14 10.2333 14 8.21499C14 6.38782 12.5934 4.87833 10.7581 4.60775Z" fill="#FF7A59"></path>
+          </svg>
+          Install app
+        </a>
 
-<p><strong>Image needed:</strong> Screenshot of the OrgChart install button or HubSpot Marketplace install screen.</p>
+<p class="text-center"><img src="/assets/images/guide1.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -42,7 +47,9 @@ header:
 
 <p>Use your normal HubSpot login. If you have access to multiple HubSpot accounts, choose the account where OrgChart should be installed.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the HubSpot account selection screen during OAuth installation.</p>
+<p class="text-center"><img src="/assets/images/guide2.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
+
+<p class="text-center"><img src="/assets/images/guide3.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -52,7 +59,7 @@ header:
 
 <p>The first user who installs OrgChart for a HubSpot account becomes an OrgChart admin by default. Additional admins can be managed later from OrgChart settings.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the HubSpot OAuth permission approval screen for OrgChart.</p>
+<p class="text-center"><img src="/assets/images/guide4.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -66,8 +73,8 @@ header:
 
 <p><strong>HubSpot permission required:</strong> users need <strong>Customize record page layout</strong> permissions or <strong>Super Admin</strong> permissions to add app cards to a record layout.</p>
 
-<p><strong>Image needed:</strong> Screenshot of HubSpot Connected Apps > OrgChart > App cards > Manage locations.</p>
-<p><strong>Image needed:</strong> Screenshot of adding an OrgChart card from the HubSpot card library.</p>
+<p class="text-center"><img src="/assets/images/guide5.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
+<p class="text-center"><img src="/assets/images/guide6.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <p>The available cards are:</p>
 
@@ -98,9 +105,9 @@ header:
 
 <p>If the company has multiple org charts, use the selector on the card to choose which chart should be shown for that deal.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Deal Org Chart card with a preview image, chart selector, usage text, and Open editor button.</p>
-<p><strong>Image needed:</strong> Screenshot of the no-associated-company state with the action to associate a company.</p>
+<p class="text-center"><img src="/assets/images/guide7.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
+<p class="text-center"><img src="/assets/images/guide8.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 <hr>
 
 <h4 class="pt-6-m mb-3 text-primary" id="company-cards">6. Company Cards</h4>
@@ -116,7 +123,7 @@ header:
 
 <p>Company-level charts are shared across deals for the same company. This means one chart can be reused by multiple deals when the sales team is mapping the same account.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Company OrgCharts card showing multiple charts and their associated deals.</p>
+<p class="text-center"><img src="/assets/images/guide9.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -126,8 +133,7 @@ header:
 
 <p>For each chart, the card shows the company, associated deals, preview image, and an <strong>Open editor</strong> action when there is an associated deal available.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Contact OrgCharts card showing one or more org charts related to the contact.</p>
-
+<p class="text-center"><img src="/assets/images/guide10.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 <hr>
 
 <h4 class="pt-6-m mb-3 text-primary" id="editor">8. The Org Chart Editor</h4>
@@ -141,7 +147,9 @@ header:
   <li><strong>Chart preview:</strong> shows the current reporting structure and buying roles.</li>
 </ul>
 
-<p><strong>Image needed:</strong> Full editor screenshot showing the contact list on the left/top and the org chart preview.</p>
+<p class="text-center"><img src="/assets/images/guide11.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
+
+<p class="text-center"><img src="/assets/images/guide12.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="create-chart">8.1 Create or Select an Org Chart</h5>
 
@@ -152,7 +160,7 @@ header:
   <li>Changing the name, reporting structure, or buying roles regenerates the preview image used in HubSpot cards.</li>
 </ul>
 
-<p><strong>Image needed:</strong> Screenshot of the org chart selector and org chart name edit field.</p>
+<p class="text-center"><img src="/assets/images/guide13.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="reporting-structure">8.2 Define the Reporting Structure</h5>
 
@@ -160,8 +168,8 @@ header:
 
 <p>You can also click <strong>Organize</strong> and drag one person onto another to create a reporting relationship visually. Click <strong>Done</strong> when finished.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the reporting selector in the contact list.</p>
-<p><strong>Image needed:</strong> Screenshot or short GIF of drag-and-drop organize mode.</p>
+<p class="text-center"><img src="/assets/images/guide14.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
+<p class="text-center"><img src="/assets/images/guide15.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="buying-roles">8.3 Assign Buying Roles</h5>
 
@@ -180,7 +188,7 @@ header:
 
 <p>Admins can customize these buying roles in <strong>Settings > General > Buying Roles</strong>. Custom roles are account-wide and are used in the editor, preview images, and AI generation.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the buying role selector for a contact.</p>
+<p class="text-center"><img src="/assets/images/guide16.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="manual-contacts">8.4 Add Manual Contacts</h5>
 
@@ -188,16 +196,14 @@ header:
 
 <p>Manual contacts show a trash icon in the contact list and can be deleted from OrgChart. HubSpot contacts show the HubSpot icon and are not deleted from HubSpot by OrgChart.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Add contact form in the editor.</p>
-<p><strong>Image needed:</strong> Screenshot showing the HubSpot icon for synced contacts and trash icon for manual contacts.</p>
+<p class="text-center"><img src="/assets/images/guide17.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
+<p class="text-center"><img src="/assets/images/guide18.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="preview-images">8.5 Preview Images in HubSpot Cards</h5>
 
 <p>OrgChart renders a preview image for each org chart so it can be displayed directly inside HubSpot cards. HubSpot does not allow iframes inside cards, so the editor is opened only when the user clicks the image or button.</p>
 
 <p>Preview images are regenerated when the chart is saved, when reporting relationships change, when buying roles change, when the org chart name changes, and when AI generates or updates a chart.</p>
-
-<p><strong>Image needed:</strong> Before/after screenshot showing an editor change and the updated card preview.</p>
 
 <hr>
 
@@ -209,9 +215,7 @@ header:
 
 <p>AI may also identify people mentioned in engagements who are not yet HubSpot contacts. If enabled in settings, OrgChart can create them as manual contacts so they can be included in the chart.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Generate AI button before clicking.</p>
-<p><strong>Image needed:</strong> Screenshot of the generating state.</p>
-<p><strong>Image needed:</strong> Screenshot of an AI-generated org chart with the AI warning text at the bottom.</p>
+<p class="text-center"><img src="/assets/images/guide19.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <p><strong>Important:</strong> AI-generated org charts are suggestions. Review reporting lines, missing contacts, and buying roles before using the chart in a sales process.</p>
 
@@ -230,7 +234,7 @@ header:
   <li>Delete an org chart.</li>
 </ul>
 
-<p><strong>Image needed:</strong> Screenshot of the OrgChart home page list with Open, Download, and Delete actions.</p>
+<p class="text-center"><img src="/assets/images/guide20.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 </div>
 </div>
@@ -256,7 +260,7 @@ header:
   <li><strong>Users:</strong> user plan and admin management.</li>
 </ul>
 
-<p><strong>Image needed:</strong> Screenshot of the OrgChart settings page with the General and Users tabs.</p>
+<p class="text-center"><img src="/assets/images/guide21.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -275,13 +279,13 @@ header:
 
 <p>If Azure OpenAI is selected, provide the Azure resource name or base URL and API key. API keys are stored encrypted.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the AI LLM Provider settings box.</p>
+<p class="text-center"><img src="/assets/images/guide22.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="deal-properties">12.3 Deal Properties and Engagement Lookback</h5>
 
 <p>Admins can control how many days of engagements AI should consider and whether to include all deal properties or only selected deal properties. This is useful when your HubSpot account has many custom properties that are not relevant to account mapping.</p>
 
-<p><strong>Image needed:</strong> Screenshot of engagement lookback and included deal properties settings.</p>
+<p class="text-center"><img src="/assets/images/guide23.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="automations">12.4 Automations</h5>
 
@@ -293,15 +297,13 @@ header:
   <li>Create org charts when a company is associated with a deal.</li>
 </ul>
 
-<p><strong>Image needed:</strong> Screenshot of the Automations settings box.</p>
-
 <h5 class="pt-6-m mb-3 text-primary" id="buying-roles-settings">12.5 Buying Roles</h5>
 
 <p>Buying roles are account-wide. Admins can edit the icon, label, and value for each role, add new roles, remove unused roles, or restore the defaults.</p>
 
 <p>Changing buying roles affects the editor, AI generation, and future preview image generation. Existing contacts that already have a removed role may need to be updated manually.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Buying Roles settings box at the bottom of the General tab.</p>
+<p class="text-center"><img src="/assets/images/guide24.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="subscription">12.6 Manage Subscription</h5>
 
@@ -309,8 +311,9 @@ header:
 
 <p>Admins can upgrade to an individual plan or team plan from the card paywall or from Settings. Paid admins can open the Stripe customer portal from Settings to manage billing.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the paywall showing the one-user and team plans.</p>
-<p><strong>Image needed:</strong> Screenshot of the Settings subscription box with Manage subscription.</p>
+<p class="text-center"><img src="/assets/images/guide25.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
+
+<p class="text-center"><img src="/assets/images/guide26.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="delete-account">12.7 Delete Account</h5>
 
@@ -318,7 +321,7 @@ header:
 
 <p>Cancel paid subscriptions before deleting the account.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Delete Account confirmation field.</p>
+<p class="text-center"><img src="/assets/images/guide27.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -334,7 +337,7 @@ header:
 
 <p>Changing a user's plan does not cancel or change the Stripe subscription by itself. Billing must be managed from the customer portal.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Users settings table.</p>
+<p class="text-center"><img src="/assets/images/guide28.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 </div>
 </div>
@@ -353,7 +356,7 @@ header:
 
 <p>You may not have permission to install apps in HubSpot. Ask a HubSpot Super Admin to install OrgChart or grant you permission to install marketplace apps.</p>
 
-<p><strong>Image needed:</strong> Screenshot of HubSpot app installation permission error, if available.</p>
+<p class="text-center"><img src="/assets/images/trouble1.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 <hr>
 
@@ -363,24 +366,22 @@ header:
 
 <p>If you can see OrgChart in Connected Apps but cannot add cards, ask a HubSpot admin to add the cards to the shared record layout.</p>
 
-<p><strong>Image needed:</strong> Screenshot of HubSpot record customization permissions or card library.</p>
-
+<p class="text-center"><img src="/assets/images/trouble2.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
+<p class="text-center"><img src="/assets/images/trouble3.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 <hr>
 
-<h4 class="pt-6-m mb-3 text-primary" id="reauthorize">16. The Card Says OrgChart Must Be Reauthorized</h4>
+<h4 class="pt-6-m mb-3 text-primary" id="reauthorize">16. The Card Says OrgChart Must Be Reconnected</h4>
 
-<p>If the HubSpot token expires, is revoked, or required scopes change, OrgChart will show a reauthorization message on the card. Click the install or reauthorize action and approve the permissions again.</p>
+<p>If the HubSpot token expires, is revoked, or required scopes change, OrgChart will show a reauthorization message on the card. Click the Reconnect action and approve the permissions again.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the card reauthorization state.</p>
-
+<p class="text-center"><img src="/assets/images/trouble4.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 <hr>
 
 <h4 class="pt-6-m mb-3 text-primary" id="no-company">17. The Editor Does Not Open for a Deal</h4>
 
 <p>Org charts are company-based. If a deal has no associated company, OrgChart cannot create or open the editor. Associate a company with the deal first, then refresh the card.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the deal card state that asks the user to associate a company.</p>
-
+<p class="text-center"><img src="/assets/images/guide8.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 <hr>
 
 <h4 class="pt-6-m mb-3 text-primary" id="preview-not-updating">18. The Preview Image Is Not Updating</h4>
@@ -388,8 +389,6 @@ header:
 <p>Preview images are regenerated when changes are saved. If the HubSpot card still shows an older image, close the editor and refresh the card or record. The card appends a refresh token to preview image URLs to avoid stale cached images.</p>
 
 <p>If the issue continues, open the editor, make a small change, and save again to force regeneration.</p>
-
-<p><strong>Image needed:</strong> Screenshot showing an updated editor chart and refreshed card preview.</p>
 
 <hr>
 
@@ -406,21 +405,22 @@ header:
   <li>The app is still authorized in HubSpot.</li>
 </ul>
 
-<p><strong>Image needed:</strong> Screenshot of a friendly AI generation error message in the editor.</p>
-
 <hr>
 
 <h4 class="pt-6-m mb-3 text-primary" id="ai-email-access">20. AI Autofill Is Not Taking Information from My Emails</h4>
 
 <p>To enable AI Autofill from email activity, you may need to reauthorize the app so OrgChart can use the newer permissions required to read email engagement data.</p>
 
-<p class="text-center"><a href="https://app.orgchart.work/install" target="_blank" class="btn btn--primary">Install</a></p>
+<a class="d-flex align-items-center gap-2 btn bg-black text-white px-4 py-2 me-3 w-25" href="https://app.orgchart.work/install">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M10.1704 10.0886C9.08591 10.0886 8.20682 9.24967 8.20682 8.21499C8.20682 7.18014 9.08591 6.34125 10.1704 6.34125C11.2548 6.34125 12.1339 7.18014 12.1339 8.21499C12.1339 9.24967 11.2548 10.0886 10.1704 10.0886ZM10.7581 4.60775V2.94095C11.2141 2.73545 11.5334 2.29534 11.5334 1.78456V1.74609C11.5334 1.04115 10.929 0.46439 10.1903 0.46439H10.1501C9.41142 0.46439 8.80706 1.04115 8.80706 1.74609V1.78456C8.80706 2.29534 9.12637 2.73564 9.58234 2.94113V4.60775C8.90354 4.70789 8.28331 4.97506 7.7718 5.36825L2.97601 1.8083C3.00766 1.69233 3.02989 1.57295 3.03008 1.44746C3.03084 0.649214 2.35371 0.00108006 1.51684 9.346e-07C0.680322 -0.000897062 0.000943832 0.645439 9.79483e-07 1.44386C-0.000939964 2.2423 0.67618 2.89043 1.51307 2.89133C1.78568 2.89169 2.03814 2.8178 2.25932 2.69769L6.97674 6.19976C6.57563 6.77759 6.34051 7.46977 6.34051 8.21499C6.34051 8.99508 6.5988 9.71679 7.03515 10.3102L5.60065 11.6793C5.48723 11.6467 5.36967 11.6241 5.24494 11.6241C4.55746 11.6241 3.99998 12.1559 3.99998 12.8119C3.99998 13.4682 4.55746 14 5.24494 14C5.93261 14 6.4899 13.4682 6.4899 12.8119C6.4899 12.6933 6.46617 12.5809 6.43206 12.4727L7.85111 11.1185C8.49527 11.5876 9.29748 11.8695 10.1704 11.8695C12.2856 11.8695 14 10.2333 14 8.21499C14 6.38782 12.5934 4.87833 10.7581 4.60775Z" fill="#FF7A59"></path>
+          </svg>
+          Install app
+        </a>
 
 <p>In all cases, the information extracted from emails is limited to the initial portion of each email. This helps avoid processing repetitive long threads, legal disclaimers, and other non-essential content.</p>
 
 <p>If critical deal information is buried deep within email threads or other engagements, AI might not capture or interpret it accurately. AI can also hallucinate, so always check important facts before relying on the generated org chart.</p>
-
-<p><strong>Image needed:</strong> Screenshot of the reauthorization prompt or install page used to approve email engagement permissions.</p>
 
 <hr>
 
@@ -430,7 +430,7 @@ header:
 
 <p>If the portal cannot find your subscription, contact support with the HubSpot account name and the email used for purchase.</p>
 
-<p><strong>Image needed:</strong> Screenshot of the Manage subscription button opening the Stripe customer portal in a new tab.</p>
+<p class="text-center"><img src="/assets/images/trouble5.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3"></p>
 
 </div>
 </div>
