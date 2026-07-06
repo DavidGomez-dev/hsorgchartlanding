@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Org Chart
-email: support@orgchart.work
+email: support@meddiccscore.com
 pwalink: "https://app.orgchart.work/install"
 googleplaylink: "https://play.google.com/store/apps/details?id=com.DOMAIN.app.twa  TODO Add  &utm_source=landing"
 appstorelink: "/?ref=requestappstore   TODO Add  &utm_source=landing"
