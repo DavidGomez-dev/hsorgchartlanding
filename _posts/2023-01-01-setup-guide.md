@@ -16,6 +16,10 @@ header:
   caption:
 ---
 
+<div class="ratio ratio-16x9 mb-4">
+  <iframe src="https://www.youtube.com/embed/PZeZlJlWH7k" title="OrgChart HubSpot setup guide video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 <div id="accordionExample" class="accordion">
 <div class="accordion-item">
 
