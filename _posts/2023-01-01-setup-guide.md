@@ -16,8 +16,17 @@ header:
   caption:
 ---
 
-<div class="ratio ratio-16x9 mb-4">
+<div class="row my-4">
+  <div class="col-md-6 mb-3">
+    <div class="border border-3 border-primary rounded">
   <iframe src="https://www.youtube.com/embed/PZeZlJlWH7k" title="OrgChart HubSpot setup guide video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="border border-3 border-primary rounded">
+      <iframe src="https://www.youtube.com/embed/erGsFLzVlfk" title="Meddicc Score Settings Walkthrough" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 <div id="accordionExample" class="accordion">
