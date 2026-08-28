@@ -19,7 +19,7 @@ header:
 <div class="row my-4">
   <div class="col-md-6 mb-3">
     <div class="border border-3 border-primary rounded">
-  <iframe src="https://www.youtube.com/embed/PZeZlJlWH7k" title="OrgChart HubSpot setup guide video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/Cl0fjPFawQ4" title="OrgChart HubSpot setup guide video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
   <div class="col-md-6 mb-3">
