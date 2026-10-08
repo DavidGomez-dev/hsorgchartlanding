@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-30T17:38:37+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Org Chart</title><subtitle>Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies.</subtitle><author><name>Org Chart</name></author><entry><title type="html">How Org Charts Power Success in MEDDICC and Enterprise Sales</title><link href="http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales/" rel="alternate" type="text/html" title="How Org Charts Power Success in MEDDICC and Enterprise Sales" /><published>2026-05-05T17:25:08+02:00</published><updated>2026-05-05T17:25:08+02:00</updated><id>http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales</id><content type="html" xml:base="http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales/"><![CDATA[<h1 id="how-org-charts-power-success-in-meddicc-and-enterprise-sales">How Org Charts Power Success in MEDDICC and Enterprise Sales</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-10-08T15:26:42+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Org Chart</title><subtitle>Build, update, and understand HubSpot org charts from the contacts already linked to your deals and companies.</subtitle><author><name>Org Chart</name></author><entry><title type="html">How Org Charts Power Success in MEDDICC and Enterprise Sales</title><link href="http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales/" rel="alternate" type="text/html" title="How Org Charts Power Success in MEDDICC and Enterprise Sales" /><published>2026-05-05T17:25:08+02:00</published><updated>2026-05-05T17:25:08+02:00</updated><id>http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales</id><content type="html" xml:base="http://localhost:4000/blog/MEDDICC-org-charts-enterprise-sales/"><![CDATA[<h1 id="how-org-charts-power-success-in-meddicc-and-enterprise-sales">How Org Charts Power Success in MEDDICC and Enterprise Sales</h1>
 
 <p>In the world of <strong>enterprise sales</strong>, teams often turn to frameworks like <strong>MEDDICC</strong> to win big deals. But one underrated tool can supercharge your sales process: <strong>org charts</strong>. Understanding how org charts fit within MEDDICC can make the difference between a lost opportunity and a closed deal.</p>
 
@@ -793,7 +793,17 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <hr />
 
-<p><em>Ready to take your sales process to the next level? Explore org chart tools available for HubSpot to supercharge your sales team today.</em></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="HubSpot org charts" /><category term="visual org charts" /><category term="complex B2B sales" /><summary type="html"><![CDATA[Sales teams using HubSpot know that closing complex B2B deals often depends on understanding the organizational structure of your prospect. This is where Hu...]]></summary></entry><entry><title type="html">OrgChart HubSpot Setup and Usage Guide</title><link href="http://localhost:4000/blog/setup-guide/" rel="alternate" type="text/html" title="OrgChart HubSpot Setup and Usage Guide" /><published>2023-01-01T16:54:38+01:00</published><updated>2023-01-01T16:54:38+01:00</updated><id>http://localhost:4000/blog/setup-guide</id><content type="html" xml:base="http://localhost:4000/blog/setup-guide/"><![CDATA[<div id="accordionExample" class="accordion">
+<p><em>Ready to take your sales process to the next level? Explore org chart tools available for HubSpot to supercharge your sales team today.</em></p>]]></content><author><name>Org Chart</name></author><category term="blog" /><category term="HubSpot org charts" /><category term="visual org charts" /><category term="complex B2B sales" /><summary type="html"><![CDATA[Sales teams using HubSpot know that closing complex B2B deals often depends on understanding the organizational structure of your prospect. This is where Hu...]]></summary></entry><entry><title type="html">OrgChart HubSpot Setup and Usage Guide</title><link href="http://localhost:4000/blog/setup-guide/" rel="alternate" type="text/html" title="OrgChart HubSpot Setup and Usage Guide" /><published>2023-01-01T16:54:38+01:00</published><updated>2026-10-08T00:00:00+02:00</updated><id>http://localhost:4000/blog/setup-guide</id><content type="html" xml:base="http://localhost:4000/blog/setup-guide/"><![CDATA[<p><strong>Updated 8 October 2026.</strong> This guide covers the current HubSpot editor and AI-assisted chart generation.</p>
+
+<div class="row my-4">
+  <div class="col-md-6 mb-3">
+    <div class="border border-3 border-primary rounded">
+  <iframe src="https://www.youtube.com/embed/Cl0fjPFawQ4" title="OrgChart HubSpot setup guide video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+
+<div id="accordionExample" class="accordion">
 <div class="accordion-item">
 
 <h3 class="accordion-header">
@@ -832,7 +842,7 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <h4 class="pt-6-m mb-3 text-primary" id="approve-permissions">3. Approve Permissions</h4>
 
-<p>Approve the requested HubSpot permissions and click <strong>Connect app</strong>. OrgChart needs access to deals, companies, and contacts so it can show cards, read associated CRM records, create manual contacts inside OrgChart, and generate organization charts from deal context.</p>
+<p>Approve the requested HubSpot permissions and click <strong>Connect app</strong>. OrgChart needs access to deals, companies, and contacts so it can show cards, read associated CRM records, maintain people added in OrgChart, and generate charts from company and deal context.</p>
 
 <p>The first user who installs OrgChart for a HubSpot account becomes an OrgChart admin by default. Additional admins can be managed later from OrgChart settings.</p>
 
@@ -840,6 +850,7 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <hr />
 
+<span id="access-from-sidebar"></span>
 <h4 class="pt-6-m mb-3 text-primary" id="add-cards">4. Add OrgChart Cards to HubSpot Views</h4>
 
 <p>After installation, HubSpot admins can add OrgChart cards to Deal, Company, and Contact record pages.</p>
@@ -876,7 +887,7 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <h4 class="pt-6-m mb-3 text-primary" id="deal-cards">5. Deal Cards</h4>
 
-<p>The deal card is the main place to create and work with an org chart. The card shows a preview image of the current organization chart for the deal. Click the preview image or <strong>Open editor</strong> to open the editor.</p>
+<p>The deal card shows a preview of the chart selected for that deal. Click the preview or <strong>Open editor</strong> to work on it. You can create and generate charts from either a deal or its associated company; both use the same company-based generation workflow.</p>
 
 <p>If the deal has no associated company, OrgChart cannot create a company-level org chart yet. In that case, the card shows an action to associate a company with the deal first.</p>
 
@@ -895,7 +906,7 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
   <li>The org chart preview image.</li>
   <li>The org chart name.</li>
   <li>The deals associated with that chart.</li>
-  <li>An action to open the editor through an associated deal.</li>
+  <li>An action to open the editor directly, even when no deal is associated.</li>
 </ul>
 
 <p>Company-level charts are shared across deals for the same company. This means one chart can be reused by multiple deals when the sales team is mapping the same account.</p>
@@ -908,40 +919,39 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <p>The contact card shows org charts from the contact's associated companies. This helps reps understand where a contact appears in the account map without leaving the contact record.</p>
 
-<p>For each chart, the card shows the company, associated deals, preview image, and an <strong>Open editor</strong> action when there is an associated deal available.</p>
+<p>For each chart, the card shows the company, associated deals, preview image, and an <strong>Open editor</strong> action when the chart is available to the user.</p>
 
 <p class="text-center"><img src="/assets/images/guide10.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
 <hr />
 
 <h4 class="pt-6-m mb-3 text-primary" id="editor">8. The Org Chart Editor</h4>
 
-<p>The editor is where you create, organize, and maintain org charts. It opens in a HubSpot modal from the deal, company, or contact cards.</p>
+<p>The editor is where you create, review, and maintain org charts. It opens from the deal, company, or contact cards. The same chart can be reused across deals for one company.</p>
 
 <p>The editor has two main areas:</p>
 
 <ul>
-  <li><strong>Contact list:</strong> shows HubSpot contacts and manual contacts available for the company, with the contact title under the name and compact relevance and engagement scores.</li>
-  <li><strong>Chart preview:</strong> shows the current reporting structure and buying roles. Optional switches can add relevance and engagement visual cues to the boxes while you are reviewing the chart.</li>
+  <li><strong>Chart:</strong> shows people, reporting lines, and any useful unfilled roles. Optional relevance and engagement switches add visual cues to the boxes.</li>
+  <li><strong>Contact list:</strong> shows HubSpot contacts and people added in OrgChart, including those not yet placed on this chart. Use it to select a manager, assign buying roles, or return a person to the chart.</li>
 </ul>
 
 <p>HubSpot contact names open the related HubSpot contact record in a new browser tab. Manual contacts stay inside OrgChart and do not link to HubSpot until they are created as HubSpot contacts.</p>
 
-<p>Click a contact box in the chart to open the contact sidebar. The sidebar shows the contact name, title, HubSpot contact link when available, intelligence badges, buying roles, associated deals, email, phone, last contacted date, contact owner, lead status, lifecycle stage, and whether the contact came from HubSpot or was added manually.</p>
+<p>Click a box to open its details panel. It shows the person's title and contact information, the current relationship, its confidence and available sources, and actions to confirm or change the placement. An <strong>Enriched</strong> marker means some displayed details came from a public or third-party source; hover over it to see the source type. Enriched details are not, by themselves, proof of a reporting line.</p>
 
 <p>The main editor controls are:</p>
 
 <ul>
-  <li><strong>Generate with AI:</strong> creates or updates a suggested chart from available company, deal, contact, buying-role, and engagement context.</li>
-  <li><strong>Save:</strong> saves the chart, buying roles, reporting lines, and preview image. The button changes to <strong>Saved</strong> when there are no unsaved changes.</li>
-  <li><strong>Edit / Done:</strong> turns visual organizing on or off. While editing, drag a contact onto another contact to set the reporting line.</li>
+  <li><strong>Generate with AI / Update with AI:</strong> creates or refreshes a suggested chart using the workflow explained in section 9.</li>
+  <li><strong>Unsaved / Saving / Saved:</strong> shows the save state. Relationship and placement edits save automatically; you can also click the button to save or retry a failed save. Wait for <strong>Saved</strong> before closing the editor.</li>
+  <li><strong>New / Delete:</strong> creates another chart or deletes the selected chart, subject to account permissions.</li>
+  <li><strong>Edit / Done:</strong> enables or ends layout editing. You can also drag a person onto another person to change their manager.</li>
   <li><strong>Full screen:</strong> opens the editor in a larger browser tab when the embedded HubSpot modal is too small.</li>
   <li><strong>Download:</strong> downloads the current org chart image. If relevance or engagement switches are enabled, the downloaded image uses those same visual cues.</li>
-  <li><strong>Zoom controls:</strong> zoom out, zoom in, and fit the chart to the visible canvas.</li>
+  <li><strong>Zoom and fit:</strong> adjust the visible chart. <strong>Undo</strong> and <strong>Redo</strong> step through recent editor changes.</li>
 </ul>
 
-<p class="text-center"><img src="/assets/images/guide11.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
-
-<p class="text-center"><img src="/assets/images/guide12.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
+<p><strong>Tip:</strong> hover over the upper edge of a person's box or its incoming line to confirm the relationship with the check mark, or choose the change-manager icon. After choosing a new manager, click the destination box. Hover over the lower edge of a box and click <strong>+</strong> to add a direct report. The details panel offers the same actions.</p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="create-chart">8.1 Create or Select an Org Chart</h5>
 
@@ -952,16 +962,13 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
   <li>Changing the name, reporting structure, or buying roles regenerates the preview image used in HubSpot cards.</li>
 </ul>
 
-<p class="text-center"><img src="/assets/images/guide13.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
-
 <h5 class="pt-6-m mb-3 text-primary" id="reporting-structure">8.2 Define the Reporting Structure</h5>
 
-<p>For each contact, select who they report to. Choose <strong>No One (Top Level)</strong> for top-level stakeholders and <strong>Not in org chart</strong> for contacts that should remain in the company contact list but not appear in the current chart.</p>
+<p>For each person, choose a manager in the contact list or use the actions on the chart. <strong>No manager recorded (top level)</strong> leaves the person at the top of the chart; <strong>Not in org chart</strong> keeps them available in the contact list without displaying them on this chart. For an AI-suggested line, <strong>Confirm</strong> records that a user reviewed it.</p>
 
-<p>You can also click <strong>Organize</strong> and drag one person onto another to create a reporting relationship visually. Click <strong>Done</strong> when finished.</p>
+<p>The line styles distinguish <strong>Confirmed</strong>, <strong>Likely</strong>, <strong>Tentative</strong>, and <strong>Grouped</strong>. <strong>Grouped</strong> means the person belongs in that branch but the direct manager is not established. It should not be read as a verified reporting line. Select a box to inspect the explanation, evidence confidence, and source links when available.</p>
 
-<p class="text-center"><img src="/assets/images/guide14.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
-<p class="text-center"><img src="/assets/images/guide15.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
+<p>Use <strong>Remove from chart</strong> to unplace a person without deleting them. If other people sit below that person, OrgChart keeps the branch together under an unfilled manager role until you choose a replacement. Empty placeholders can be removed; a branch with people below it can be removed as a branch after confirmation. These actions do not delete HubSpot contacts.</p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="buying-roles">8.3 Assign Buying Roles</h5>
 
@@ -985,13 +992,9 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <p>OrgChart settings are only for changing the icons shown next to each HubSpot buying role. The role names and internal values come from HubSpot and should be managed there.</p>
 
-<p class="text-center"><img src="/assets/images/guide16.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
-
 <h5 class="pt-6-m mb-3 text-primary" id="contact-intelligence">8.4 Review Contact Intelligence</h5>
 
 <p>OrgChart calculates deterministic contact intelligence scores for each contact in the company org chart. The scores are designed to help the team quickly scan who looks commercially relevant and who has recent engagement, without changing HubSpot data.</p>
-
-<p class="text-center"><img src="/assets/images/guide161.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
 
 <p>The contact list shows compact <strong>Rel</strong> and <strong>Eng</strong> badges. The contact sidebar shows <strong>Total</strong>, <strong>Rel</strong>, <strong>Eng</strong>, and associated deal badges in one row. Click the <strong>Intelligence</strong> title in the sidebar to expand the explanation, including the main reasons and source facts used for the score.</p>
 
@@ -1007,12 +1010,11 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <h5 class="pt-6-m mb-3 text-primary" id="manual-contacts">8.5 Add Manual Contacts</h5>
 
-<p>You can add contacts that are relevant to the account map even if they are not HubSpot contacts yet. Manual contacts are stored in OrgChart at the company level, so they are available in other org charts and deals for the same company.</p>
+<p>You can add people who are relevant to the account map even if they are not HubSpot contacts yet. A company-level manual person can be reused across charts and deals for that company. You can also create a person in the chart editor and, when appropriate, add that person to HubSpot.</p>
 
-<p>Manual contacts show a trash icon in the contact list and can be deleted from OrgChart. HubSpot contacts show the HubSpot icon and are not deleted from HubSpot by OrgChart.</p>
+<p>Manually added people can be deleted from OrgChart where the delete action is offered; this does not delete a HubSpot contact. Use <strong>Remove from chart</strong> instead when you only want to unplace someone. Unfilled roles that have been filled or removed are hidden from the active contact and manager choices so they do not keep appearing as duplicates.</p>
 
-<p class="text-center"><img src="/assets/images/guide17.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
-<p class="text-center"><img src="/assets/images/guide18.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3" /></p>
+<p><strong>Unfilled roles:</strong> when the chart has a meaningful missing manager or leader, it may show a lightly shaded role box instead of inventing a person's name. Select it and choose <strong>Fill this role</strong> to pick an available person or create one. Filling a role is a manual decision, so its new person-to-person reporting line is marked confirmed. Remove an empty role if it is not useful.</p>
 
 <h5 class="pt-6-m mb-3 text-primary" id="preview-images">8.6 Preview Images in HubSpot Cards</h5>
 
@@ -1024,15 +1026,27 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <h4 class="pt-6-m mb-3 text-primary" id="ai-generation">9. Generate Org Charts with AI</h4>
 
-<p>OrgChart can generate a suggested org chart from the deal record, associated contacts, associated company, buying roles, titles, and recent engagements recorded in HubSpot.</p>
+<p>Click <strong>✨ Generate with AI</strong> for a new chart, or <strong>✨ Update with AI</strong> for an existing one. You can start from a company record or a deal with an associated company. Both routes use the same company-based generation workflow; a deal also supplies relevant deal context and links the chart to that deal.</p>
 
-<p>Click <strong>✨ Generate AI</strong> in the editor. While the process runs, the button shows a generating state. When the chart is created, it is marked with the note <strong>✨ Generated with AI. Check for mistakes.</strong> in the editor and preview image.</p>
+<h5 class="pt-6-m mb-3 text-primary" id="ai-workflow">9.1 How a Chart Is Built</h5>
 
-<p>AI may also identify people mentioned in engagements who are not yet HubSpot contacts. If enabled in settings, OrgChart can create them as manual contacts so they can be included in the chart.</p>
+<ol>
+  <li><strong>Understand the account:</strong> OrgChart gathers the company's identity and available HubSpot contacts, titles, buying roles, and permitted deal and engagement context. It also checks for duplicates and for people whose company affiliation is uncertain.</li>
+  <li><strong>Find useful context:</strong> when appropriate, it checks public company information and available enrichment sources for leadership, roles, locations, and organizational clues. Public information is especially useful for larger companies; a small team or department chart may rely much more on CRM evidence. Outside information can be missing, old, or mismatched, so it is assessed rather than accepted automatically.</li>
+  <li><strong>Build a people-first structure:</strong> where credible public leaders and relationships exist, they form the top-level backbone. OrgChart then places CRM people into the most plausible function, region, and seniority level using all available evidence. For smaller or focused charts, it builds around the people and scope actually present rather than forcing a whole-company CEO hierarchy.</li>
+  <li><strong>Handle gaps and uncertainty:</strong> confirmed relationships remain distinct from likely or tentative ones. If the appropriate manager is unknown, OrgChart can group someone under a branch or show an unfilled role with people below it. It does not need to invent a named manager or make every contact a direct report of the CEO. Contacts with too little reliable context may remain available but unplaced.</li>
+  <li><strong>Review and refine:</strong> the chart appears with line styles, available sources, and quality indicators. You can confirm a line, choose another manager, fill a role, or add a direct report. Manual corrections are carried forward when you update the chart with AI.</li>
+</ol>
 
-<p class="text-center"><img src="/assets/images/guide19.png" alt="troubleshooting" class="mt-5 border border-3 border-primary rounded rounded-3" /></p>
+<p>While generation runs, the editor shows an approximate sequence of progress messages. Research and reconciliation can take longer for complex companies; the messages describe the stage of work, not a guaranteed completion time. Depending on account settings, AI can also add a real person found in engagement evidence as a manual contact.</p>
 
-<p><strong>Important:</strong> AI-generated org charts are suggestions. Review reporting lines, missing contacts, and buying roles before using the chart in a sales process.</p>
+<h5 class="pt-6-m mb-3 text-primary" id="chart-quality">9.2 Read the Result</h5>
+
+<p><strong>Chart quality</strong> is an overall score that combines evidence confidence, contact coverage, structural plausibility, contact role information, and leadership placement. It is a guide to how usable the chart is, <strong>not a guarantee that every reporting line is correct</strong>. Open the quality details to see the component scores and explanations. Evidence confidence is shown separately because a plausible hierarchy may still contain inferred relationships.</p>
+
+<p>The relationship details panel shows whether a particular line is confirmed, likely, or tentative, with its explanation and source links where available. A confirmed line may come from an explicit source or from a user's manual review; check the details when that distinction matters. <strong>Grouped</strong> indicates branch placement, not a known direct manager. If sources disagree, OrgChart may keep a relationship tentative or leave a person unplaced rather than present a conflict as fact.</p>
+
+<p><strong>Important:</strong> AI-generated charts are best-effort starting points. Review important reporting lines, current titles, affiliations, missing contacts, and buying roles before relying on the chart in a sales process. For a small or department-only chart, do not assume it represents the entire company.</p>
 
 <hr />
 
@@ -1091,7 +1105,7 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <h5 class="pt-6-m mb-3 text-primary" id="ai-provider">12.2 AI Usage</h5>
 
-<p>Admins can enable or disable AI features and choose the AI provider used to generate org charts. The AI workflow uses available deal information, company context, contacts, buying roles, and engagement records.</p>
+<p>Admins can enable or disable AI features and configure the available AI provider. Generation uses the company and CRM context described in section 9, with public information and enrichment where available and appropriate. Availability of outside sources depends on the service configuration and the company being researched.</p>
 
 <p>If Azure OpenAI is selected, provide the Azure resource name or base URL and API key. API keys are stored encrypted. If AI usage is disabled, AI generation and AI automation are not available to users.</p>
 
@@ -1212,14 +1226,14 @@ Explore HubSpot’s app marketplace for org chart integrations and boost your te
 
 <h4 class="pt-6-m mb-3 text-primary" id="ai-error">19. AI Generation Fails</h4>
 
-<p>AI generation can fail if AI is disabled in settings, the selected provider is not configured, the deal has no contacts, or HubSpot engagement data cannot be read. The editor shows an error message when generation fails.</p>
+<p>AI generation can fail if AI is disabled, the configured service is unavailable, the HubSpot connection needs attention, or there is too little reliable company information to build a chart. A company with no CRM contacts may still be eligible if verifiable public leaders are found; an empty company record does not guarantee a chart can be generated. The editor shows an error when generation fails.</p>
 
 <p>Check:</p>
 
 <ul>
   <li>The account has AI enabled.</li>
-  <li>The selected LLM provider is configured.</li>
-  <li>The deal has an associated company and contacts.</li>
+  <li>The AI service is configured and available.</li>
+  <li>The company name or domain is correct and the company has useful CRM contacts or verifiable public information. A deal must be associated with a company.</li>
   <li>The app is still authorized in HubSpot.</li>
 </ul>
 
