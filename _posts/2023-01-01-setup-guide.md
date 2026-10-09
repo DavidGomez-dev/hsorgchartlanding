@@ -309,7 +309,7 @@ header:
 <p>The main settings areas are:</p>
 
 <ul>
-  <li><strong>General:</strong> user access, AI usage, automation, subscription, account deletion, and buying-role icons.</li>
+  <li><strong>General:</strong> user access, AI usage, automation, account deletion, and buying-role icons.</li>
   <li><strong>Users:</strong> user plan and admin management.</li>
 </ul>
 
@@ -371,7 +371,7 @@ header:
 <ol>
   <li>In HubSpot, open <strong>Settings > Integrations > Connected Apps > Org Chart > Settings</strong>.</li>
   <li>Check the <strong>Users</strong> tab for pending access requests and the number of licences in use.</li>
-  <li>For a paid subscription, click <strong>Add licences</strong> on the request, or open <strong>General > Manage Your Subscription</strong>.</li>
+  <li>For a paid subscription, click <strong>Add licences</strong> on the request, or open <strong>Users > Manage Your Subscription</strong>.</li>
   <li>In Billing, click <strong>Update Subscription</strong>. Use <strong>+</strong> to increase the quantity to cover everyone who needs access, then review the price and confirm the change.</li>
   <li>Return to Org Chart Settings and click <strong>Refresh licences</strong>. Click <strong>Grant access</strong> beside the teammate’s pending request. Adding billing quantity alone does not grant that teammate access.</li>
 </ol>
@@ -493,7 +493,7 @@ header:
 
 <h4 class="pt-6-m mb-3 text-primary" id="billing">21. Billing or Subscription Issues</h4>
 
-<p>Admins can manage billing from <strong>Settings > General > Manage Your Subscription</strong>. The customer portal opens in a new tab because Stripe blocks the portal inside some embedded contexts.</p>
+<p>Admins can manage billing from <strong>Settings > Users > Manage Your Subscription</strong>. The customer portal opens in a new tab because Stripe blocks the portal inside some embedded contexts.</p>
 
 <p>If the portal cannot find your subscription, contact support with the HubSpot account name and the email used for purchase.</p>
 
