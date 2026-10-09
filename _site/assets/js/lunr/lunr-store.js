@@ -1,6 +1,6 @@
 var store = [{
         "title": "OrgChart HubSpot Setup and Usage Guide",
-        "excerpt":"Updated 8 October 2026. This guide covers the current HubSpot editor and AI-assisted chart generation. Getting Started 1. Connect Your HubSpot Account Click Install app to connect OrgChart to your HubSpot account. Important: OrgChart is installed at the HubSpot account level. Once an admin installs the app, the account authorization...","categories": ["blog"],
+        "excerpt":"Updated 9 October 2026. This guide covers the current HubSpot editor and AI-assisted chart generation. Getting Started 1. Connect Your HubSpot Account Click Install app to connect OrgChart to your HubSpot account. Important: OrgChart is installed at the HubSpot account level. Once an admin installs the app, the account authorization...","categories": ["blog"],
         "tags": ["setup guide","HubSpot","org charts"],
         "url": "/blog/setup-guide/",
         "teaser": "/assets/images/zermatt.jpg"

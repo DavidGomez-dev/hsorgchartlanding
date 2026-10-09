@@ -8,7 +8,7 @@ tags:
   - org charts
 classes: wide no_padding_top
 date: 2023-01-01 16:54:38 +0100
-last_modified_at: 2026-10-08
+last_modified_at: 2026-10-09
 excerpt: Guide for installing, configuring, and using OrgChart in HubSpot
 sidebar_resume: true
 header:
@@ -17,7 +17,7 @@ header:
   caption:
 ---
 
-<p><strong>Updated 8 October 2026.</strong> This guide covers the current HubSpot editor and AI-assisted chart generation.</p>
+<p><strong>Updated 9 October 2026.</strong> This guide covers the current HubSpot editor and AI-assisted chart generation.</p>
 
 <div class="row my-4">
   <div class="col-md-6 mb-3">
@@ -365,7 +365,18 @@ header:
 
 <p>Free accounts can create up to 10 free org charts. OrgChart warns admins as the account approaches the free limit and requires an upgrade before an 11th chart can be created.</p>
 
-<p>Admins can upgrade to an individual plan or team plan from the card paywall or from Settings. Paid admins can open the Stripe customer portal from Settings to manage billing.</p>
+<p>Admins can upgrade from the card paywall or Settings. A teammate using free access can request a licence from the existing company plan instead of starting a separate subscription.</p>
+
+<h6 id="add-licences">Upgrade or add licences</h6>
+<ol>
+  <li>In HubSpot, open <strong>Settings > Integrations > Connected Apps > Org Chart > Settings</strong>.</li>
+  <li>Check the <strong>Users</strong> tab for pending access requests and the number of licences in use.</li>
+  <li>For a paid subscription, click <strong>Add licences</strong> on the request, or open <strong>General > Manage Your Subscription</strong>.</li>
+  <li>In Billing, click <strong>Update Subscription</strong>. Use <strong>+</strong> to increase the quantity to cover everyone who needs access, then review the price and confirm the change.</li>
+  <li>Return to Org Chart Settings and click <strong>Refresh licences</strong>. Click <strong>Grant access</strong> beside the teammate’s pending request. Adding billing quantity alone does not grant that teammate access.</li>
+</ol>
+<p>If a licence is already available, click <strong>Grant access</strong> directly. For an active renewing trial, the app can offer to add a licence after showing a confirmation: no charge today, the same trial end date for everyone, and the new quantity and price if the subscription continues. Adding a teammate does not restart or extend the trial.</p>
+<p>For a company without a subscription, choose a plan from the upgrade screen. Billing changes to an existing paid subscription show their charges and timing in the customer portal before you confirm.</p>
 
 <p class="text-center"><img src="/assets/images/guide25.png" alt="troubleshooting" class="w-50 mt-5 border border-3 border-primary rounded rounded-3"></p>
 
@@ -492,3 +503,22 @@ header:
 </div>
 </div>
 </div>
+
+<script>
+(function () {
+  function revealSection() {
+    var target = document.getElementById(window.location.hash.slice(1));
+    if (!target) return;
+    var panel = target.closest('.accordion-collapse');
+    if (panel) {
+      panel.classList.add('show');
+      var button = document.querySelector('[data-bs-target="#' + panel.id + '"]');
+      if (button) { button.classList.remove('collapsed'); button.setAttribute('aria-expanded', 'true'); }
+    }
+    target.scrollIntoView();
+  }
+  window.addEventListener('hashchange', revealSection);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', revealSection);
+  else revealSection();
+})();
+</script>
